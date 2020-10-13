@@ -1,0 +1,21 @@
+{
+    "Logger": {
+        "log_game_logs": "0",
+        "log_get_file_info": "1",
+        "log_iniread": "0",
+        "log_level": "1",
+        "log_load_file": "1",
+        "luaL_tolstring": "0"
+    },
+    "Lua": {
+        "execute_in_all_states": "0"
+    },
+    "Overlay": {
+        "corner": "0",
+        "show_current_screen": "1",
+        "show_fps": "1",
+        "show_hotkeys": "1",
+        "show_title_label": "1",
+        "transparency": "0.350000"
+    }
+}
