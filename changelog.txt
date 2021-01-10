@@ -1,3 +1,8 @@
+v21.1.0.2:
+    - Added LUA Engine
+    - Added Database Editor
+    - Added Players Editor (some changes might be reverted, will be fixed later on)
+
 v21.1.0.1:
     - Option to add custom minifaces for generated players (those with playerid >= 280000)
     - Creating Legacy folder structure at startup
