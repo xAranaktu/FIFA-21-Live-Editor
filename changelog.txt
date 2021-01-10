@@ -1,2 +1,6 @@
+v21.1.0.1:
+    - Option to add custom minifaces for generated players (those with playerid >= 280000)
+    - Creating Legacy folder structure at startup
+
 v21.1.0.0:
     - Legacy files modding possibility.
