@@ -1,3 +1,6 @@
+v21.1.0.3:
+    - Editing player in Career Mode will also update the xp stored in Developement Plans (means attributes won't revert at Monday)
+
 v21.1.0.2:
     - Added LUA Engine
     - Added Database Editor
