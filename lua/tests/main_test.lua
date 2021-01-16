@@ -37,6 +37,16 @@ if (bIsInCM) then
     row.transferbudget.value = "6543210"
     success = EditDBTableField(row["transferbudget"])
     assert(success, "EditDBTableField false for transferbudget")
+
+    local playername1 = GetPlayerName(20801)
+    Log("playername1 (20801): " .. playername1)
+    assert(type(playername1) == "string", "GetPlayerName(20801) not a string")
+    assert(playername1 == "Cristiano Ronaldo", "playername1 != Cristiano Ronaldo")
+
+    local playername2 = GetPlayerName(158023)
+    Log("playername2 (158023): " .. playername2)
+    assert(type(playername2) == "string", "GetPlayerName(158023) not a string")
+    assert(playername2 == "Lionel Messi", "playername2 != Lionel Messi")
 else 
     Log("Not in Career Mode")
 end
@@ -54,16 +64,6 @@ local team_name2 = GetTeamName(7)   --- Everton
 Log("team_name2 (7): " .. team_name2)
 assert(type(team_name2) == "string", "GetTeamName(7) not a string")
 assert(team_name2 == "Everton", "team_name2 != Everton")
-
-local playername1 = GetPlayerName(20801)
-Log("playername1 (20801): " .. playername1)
-assert(type(playername1) == "string", "GetPlayerName(20801) not a string")
-assert(playername1 == "Cristiano Ronaldo", "playername1 != Cristiano Ronaldo")
-
-local playername2 = GetPlayerName(158023)
-Log("playername2 (158023): " .. playername2)
-assert(type(playername2) == "string", "GetPlayerName(158023) not a string")
-assert(playername2 == "Lionel Messi", "playername2 != Lionel Messi")
 
 local teamid1 = GetTeamIdFromPlayerId(158023)
 Log("teamid1 (158023): " .. teamid1)
