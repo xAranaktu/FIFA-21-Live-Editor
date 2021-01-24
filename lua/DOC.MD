@@ -16,6 +16,9 @@ Also, LUA Engine allows you to switch between lua states to access also in-game 
 * [GetTeamName](#GetTeamName)
 * [GetPlayerName](#GetPlayerName)
 * [ReloadDB](#ReloadDB)
+* [ReloadPlayersManager](#ReloadPlayersManager)
+* [PlayerHasDevelopementPlan](#PlayerHasDevelopementPlan)
+* [PlayerSetValueInDevelopementPlan](#PlayerSetValueInDevelopementPlan)
 * [GetDBTablesNames](#GetDBTablesNames)
 * [GetDBTableFields](#GetDBTableFields)
 * [GetDBTableRows](#GetDBTableRows)
@@ -231,6 +234,102 @@ Log(playername)
 > Cristiano Ronaldo
 > Lionel Messi
 ```
+
+## ReloadDB
+
+Reload all database tables in Live Editor memory.
+Use it to make sure you are working with up to date tables
+
+### Syntax
+```
+void ReloadDB()
+```
+### Return
+None
+
+### Example
+```
+ReloadDB()
+```
+
+## ReloadPlayersManager
+
+Reload Players Manager in Live Editor memory.
+
+### Syntax
+```
+void ReloadPlayersManager()
+```
+### Return
+None
+
+### Example
+```
+ReloadPlayersManager()
+```
+
+## PlayerHasDevelopementPlan
+
+Players in Manager Career mode that are in team managed by user got developement plans. Data stored in these plans got higher priority than fields in players table.
+Following fields are part of the developement plan:
+- All attributes
+- Workrates
+- Skillmoves
+- Weakfoot
+
+**Constraints**: 
+- Can be executed only in Career Mode.
+
+### Syntax
+```
+bool PlayerHasDevelopementPlan(int playerid)
+```
+### Return
+Type: **Bool**
+- **True** if player has developement plan
+- **False** if player doesn't have developement plan
+
+### Example
+```
+PlayerHasDevelopementPlan(158023)
+```
+
+## PlayerSetValueInDevelopementPlan
+
+Players in Manager Career mode that are in team managed by user got developement plans. Data stored in these plans got higher priority than fields in players table.
+Following fields are part of the developement plan:
+- All attributes
+- Workrates
+- Skillmoves
+- Weakfoot
+
+Use this to set corresponding XP points for given field.
+Use fieldnames same as in players table
+
+**Constraints**: 
+- Can be executed only in Career Mode.
+
+### Syntax
+```
+void PlayerSetValueInDevelopementPlan(int playerid, string field_name, int value)
+```
+### Return
+None
+
+### Example
+```
+local bIsInCM = IsInCM();
+
+ReloadDB()
+if (bIsInCM) then
+    ReloadPlayersManager()
+    if (PlayerHasDevelopementPlan(158023)) then
+        PlayerSetValueInDevelopementPlan(158023, "composure", 99)
+    end
+end
+
+```
+
 
 ## GetDBTablesNames
 Get names of database tables that we can access (same tables are available in Database Editor)
