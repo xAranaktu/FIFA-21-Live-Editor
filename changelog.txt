@@ -1,5 +1,8 @@
 v21.1.0.5:
-    - 
+    - Added "Generate miniface" button to Players Editor
+    - Added 2 new lua functions (Check DOC.MD for usage):
+        - AddMinifaceToGenerate
+        - GenerateMinifaces
 
 v21.1.0.4:
     - Improved UI scaling
