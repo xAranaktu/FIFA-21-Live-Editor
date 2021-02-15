@@ -3,7 +3,7 @@ v21.1.0.7:
 
 v21.1.0.6:
     - Added checkboxes as an alternative for hotkeys
-    - Added new hotkey for opening the menu (SPACEBAR)
+    - Added new hotkey for opening the menu (HOME)
     - Added hotkey for hiding the UI (F9)
     - Fixed crashing on attempt to open the menu before core functionality has been initialized
     - Removed Eject DLL hotkey
