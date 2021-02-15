@@ -1,3 +1,13 @@
+v21.1.0.7:
+    -
+
+v21.1.0.6:
+    - Added checkboxes as an alternative for hotkeys
+    - Added new hotkey for opening the menu (SPACEBAR)
+    - Added hotkey for hiding the UI (F9)
+    - Fixed crashing on attempt to open the menu before core functionality has been initialized
+    - Removed Eject DLL hotkey
+
 v21.1.0.5:
     - Added "Generate miniface" button to Players Editor
     - Added 2 new lua functions (Check DOC.MD for usage):
