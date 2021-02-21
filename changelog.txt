@@ -1,5 +1,16 @@
 v21.1.0.7:
-    -
+    - New Launcher icon
+    - Added 4 new lua functions (Check DOC.MD for usage):
+        - GetTransferBudget
+        - SetTransferBudget
+        - GetWageBudget
+        - SetWageBudget
+    - Added to Players Editor:
+        - Contract:
+            - Contract valid until
+            - Player join team date
+    - Fixed:
+        - Freezing game on trying to generate the miniface outside of CM (now button can be clicked only if you are in CM)
 
 v21.1.0.6:
     - Added checkboxes as an alternative for hotkeys
