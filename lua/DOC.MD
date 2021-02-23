@@ -23,6 +23,12 @@ Also, LUA Engine allows you to switch between lua states to access also in-game 
 * [GetDBTableFields](#GetDBTableFields)
 * [GetDBTableRows](#GetDBTableRows)
 * [EditDBTableField](#EditDBTableField)
+* [AddMinifaceToGenerate](#AddMinifaceToGenerate)
+* [GenerateMinifaces](#GenerateMinifaces)
+* [GetTransferBudget](#GetTransferBudget)
+* [SetTransferBudget](#SetTransferBudget)
+* [GetWageBudget](#GetWageBudget)
+* [SetWageBudget](#SetWageBudget)
 
 ## Data Types
 
@@ -485,3 +491,196 @@ Log(row.nationality.value)
 > Edited Firstname
 > 37
 ```
+## AddMinifaceToGenerate
+Add player to the queue for generating minifaces.
+Call [GenerateMinifaces](#GenerateMinifaces) to start generating.
+
+**Constraints**: 
+- Can be executed only in Career Mode.
+### Syntax
+```
+void AddMinifaceToGenerate(int playerid, int teamid, string out_path)
+```
+### Return
+void
+
+### Example
+```
+local data = {
+    {158023, 241}
+}
+
+local bIsInCM = IsInCM();
+if (bIsInCM) then
+    for i=1, #data do
+        local playerid = data[i][1] // Render headmodel from this playerid
+        local teamid = data[i][2]   // Render homekit from this teamid
+        if (teamid <= 0) then
+            teamid = 111
+        end
+        
+        // Path is relative to the game installation directory
+        local path = string.format("LiveEditorMods/root/Legacy/data/ui/imgAssets/heads/p%d.DDS", playerid)
+        
+        // Add to Queue
+        AddMinifaceToGenerate(playerid, teamid, path)
+    end
+    Log("Start Generating")
+    
+    // Start generating from queue
+    GenerateMinifaces()
+end
+
+```
+
+## GenerateMinifaces
+Generate minifaces for players in queue.
+Add players by calling [AddMinifaceToGenerate](#AddMinifaceToGenerate)
+
+On my PC it takes around 2s to generate one miniface, so be prepared that if you want to generate a lot of minifaces you will need to wait a while.
+
+**Constraints**: 
+- Can be executed only in Career Mode.
+### Syntax
+```
+void GenerateMinifaces()
+```
+### Return
+void
+
+### Example
+```
+local data = {
+    {158023, 241}
+}
+
+local bIsInCM = IsInCM();
+if (bIsInCM) then
+    for i=1, #data do
+        local playerid = data[i][1] // Render headmodel from this playerid
+        local teamid = data[i][2]   // Render homekit from this teamid
+        if (teamid <= 0) then
+            teamid = 111
+        end
+        
+        // Path is relative to the game installation directory
+        local path = string.format("LiveEditorMods/root/Legacy/data/ui/imgAssets/heads/p%d.DDS", playerid)
+        
+        // Add to Queue
+        AddMinifaceToGenerate(playerid, teamid, path)
+    end
+    Log("Start Generating")
+    
+    // Start generating from queue
+    GenerateMinifaces()
+end
+
+```
+
+## GetTransferBudget
+Get user club transfer budget
+
+**Constraints**: 
+- Can be executed only in Career Mode.
+
+### Syntax
+```
+int GetTransferBudget()
+```
+### Return
+Type: **Int**
+- Transfer budget value
+
+### Example
+```
+SetTransferBudget(6777656)
+local transfer_budget = GetTransferBudget()
+Log("transfer_budget: " .. transfer_budget)
+Log(type(transfer_budget))
+
+```
+```
+> transfer_budget: 6777656
+> number
+```
+
+## SetTransferBudget
+Set user club transfer budget
+
+**Constraints**: 
+- Can be executed only in Career Mode.
+
+### Syntax
+```
+void SetTransferBudget(int new_transfer_budget)
+```
+### Return
+Type: **void**
+
+### Example
+```
+SetTransferBudget(6777656)
+local transfer_budget = GetTransferBudget()
+Log("transfer_budget: " .. transfer_budget)
+Log(type(transfer_budget))
+
+```
+```
+> transfer_budget: 6777656
+> number
+```
+
+## GetWageBudget
+Get user club wage budget. The value returned will be different than the value you see in game.
+The game divides it by the number of weeks until end of the season.
+
+**Constraints**: 
+- Can be executed only in Career Mode.
+
+### Syntax
+```
+int GetWageBudget()
+```
+### Return
+Type: **Int**
+- Wage budget value
+
+### Example
+```
+SetWageBudget(1234567)
+local wage_budget = GetWageBudget()
+Log("wage_budget: " .. wage_budget)
+Log(type(wage_budget))
+
+```
+```
+> wage_budget: 1234567
+> number
+```
+
+## SetWageBudget
+Set user club wage budget
+
+**Constraints**: 
+- Can be executed only in Career Mode.
+
+### Syntax
+```
+void SetWageBudget(int new_wage_budget)
+```
+### Return
+Type: **void**
+
+### Example
+```
+SetWageBudget(1234567)
+local wage_budget = GetWageBudget()
+Log("wage_budget: " .. wage_budget)
+Log(type(wage_budget))
+
+```
+```
+> wage_budget: 1234567
+> number
+```
+
