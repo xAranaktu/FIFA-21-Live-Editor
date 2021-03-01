@@ -1,3 +1,15 @@
+v21.1.1.0:
+    -
+
+v21.1.0.9:
+    - Added to Players Editor:
+        - Release Clause
+        - Match fitness
+        - Injury
+        - Sharpness
+        - Form
+        - Morale
+
 v21.1.0.8:
     - Added to Players Editor:
         - Jersey number
