@@ -7,6 +7,18 @@ assert(type(bIsInCM) == "boolean", "IsInCM not a boolean")
 
 if (bIsInCM) then
     Log("Is In Career Mode")
+    SetTransferBudget(6777656)
+
+    local transfer_budget = GetTransferBudget()
+    Log("transfer_budget: " .. transfer_budget)
+    assert(type(transfer_budget) == "number", "transfer_budget not a number")
+    assert(transfer_budget == 6777656, "transfer_budget != 6777656")
+
+    SetWageBudget(1234567)
+    local wage_budget = GetWageBudget()
+    Log("wage_budget: " .. wage_budget)
+    assert(type(wage_budget) == "number", "wage_budget not a number")
+    assert(wage_budget == 1234567, "wage_budget != 6777656")
     
     local user_teamid = GetUserTeamID()
     
