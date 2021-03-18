@@ -1,5 +1,22 @@
+v21.1.1.1:
+    - Added:
+        - Permanently saving created player attributes in player career mode when edited via players editor
+        - Recalculating player ovr on attribute/position/modifier change via players editor
+        - Recalculating best at on attribute change via players editor
+
 v21.1.1.0:
-    -
+    - Added 1 new lua function (Check DOC.MD for usage):
+        - CreateOfferForPlayer
+    - Added "Delete miniface" button to players editor (will replace the import miniface button if player has moddified miniface)
+    - Changed:
+        - Miniface will now immediately update in GUI after generating
+    - Fixed player weight (kg -> lb) conversion
+    - Fixed player height (cm -> ft. inch) conversion
+    - Fixed adding/removing following traits via players editor:
+        - Technical Dribbler (CPU)
+        - GK Rushes Out of Goal
+        - GK Cautious with Crosses
+        - GK Comes for Crosses
 
 v21.1.0.9:
     - Added to Players Editor:
