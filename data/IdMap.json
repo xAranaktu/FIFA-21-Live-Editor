@@ -1,0 +1,3057 @@
+{
+    "nationality": {
+        "translate": false,
+        "items": [
+            {
+                "value": 149,
+                "name": "Afghanistan"
+            },
+            {
+                "value": 1,
+                "name": "Albania"
+            },
+            {
+                "value": 97,
+                "name": "Algeria"
+            },
+            {
+                "value": 194,
+                "name": "American Samoa"
+            },
+            {
+                "value": 2,
+                "name": "Andorra"
+            },
+            {
+                "value": 98,
+                "name": "Angola"
+            },
+            {
+                "value": 62,
+                "name": "Anguilla"
+            },
+            {
+                "value": 63,
+                "name": "Antigua and Barbuda"
+            },
+            {
+                "value": 52,
+                "name": "Argentina"
+            },
+            {
+                "value": 3,
+                "name": "Armenia"
+            },
+            {
+                "value": 64,
+                "name": "Aruba"
+            },
+            {
+                "value": 195,
+                "name": "Australia"
+            },
+            {
+                "value": 4,
+                "name": "Austria"
+            },
+            {
+                "value": 5,
+                "name": "Azerbaijan"
+            },
+            {
+                "value": 65,
+                "name": "Bahamas"
+            },
+            {
+                "value": 150,
+                "name": "Bahrain"
+            },
+            {
+                "value": 151,
+                "name": "Bangladesh"
+            },
+            {
+                "value": 66,
+                "name": "Barbados"
+            },
+            {
+                "value": 6,
+                "name": "Belarus"
+            },
+            {
+                "value": 7,
+                "name": "Belgium"
+            },
+            {
+                "value": 67,
+                "name": "Belize"
+            },
+            {
+                "value": 99,
+                "name": "Benin"
+            },
+            {
+                "value": 68,
+                "name": "Bermuda"
+            },
+            {
+                "value": 152,
+                "name": "Bhutan"
+            },
+            {
+                "value": 53,
+                "name": "Bolivia"
+            },
+            {
+                "value": 8,
+                "name": "Bosnia and Herzegovina"
+            },
+            {
+                "value": 100,
+                "name": "Botswana"
+            },
+            {
+                "value": 54,
+                "name": "Brazil"
+            },
+            {
+                "value": 69,
+                "name": "British Virgin Islands"
+            },
+            {
+                "value": 153,
+                "name": "Brunei Darussalam"
+            },
+            {
+                "value": 9,
+                "name": "Bulgaria"
+            },
+            {
+                "value": 101,
+                "name": "Burkina Faso"
+            },
+            {
+                "value": 102,
+                "name": "Burundi"
+            },
+            {
+                "value": 154,
+                "name": "Cambodia"
+            },
+            {
+                "value": 103,
+                "name": "Cameroon"
+            },
+            {
+                "value": 70,
+                "name": "Canada"
+            },
+            {
+                "value": 104,
+                "name": "Cape Verde Islands"
+            },
+            {
+                "value": 71,
+                "name": "Cayman Islands"
+            },
+            {
+                "value": 105,
+                "name": "Central African Republic"
+            },
+            {
+                "value": 106,
+                "name": "Chad"
+            },
+            {
+                "value": 55,
+                "name": "Chile"
+            },
+            {
+                "value": 155,
+                "name": "China PR"
+            },
+            {
+                "value": 213,
+                "name": "Chinese Taipei"
+            },
+            {
+                "value": 56,
+                "name": "Colombia"
+            },
+            {
+                "value": 214,
+                "name": "Comoros"
+            },
+            {
+                "value": 107,
+                "name": "Congo"
+            },
+            {
+                "value": 110,
+                "name": "Congo DR"
+            },
+            {
+                "value": 196,
+                "name": "Cook Islands"
+            },
+            {
+                "value": 72,
+                "name": "Costa Rica"
+            },
+            {
+                "value": 108,
+                "name": "C�te d'Ivoire"
+            },
+            {
+                "value": 209,
+                "name": "Created Players Country"
+            },
+            {
+                "value": 216,
+                "name": "Creation Zone"
+            },
+            {
+                "value": 10,
+                "name": "Croatia"
+            },
+            {
+                "value": 73,
+                "name": "Cuba"
+            },
+            {
+                "value": 85,
+                "name": "Cura�ao"
+            },
+            {
+                "value": 11,
+                "name": "Cyprus"
+            },
+            {
+                "value": 12,
+                "name": "Czech Republic"
+            },
+            {
+                "value": 13,
+                "name": "Denmark"
+            },
+            {
+                "value": 109,
+                "name": "Djibouti"
+            },
+            {
+                "value": 74,
+                "name": "Dominica"
+            },
+            {
+                "value": 207,
+                "name": "Dominican Republic"
+            },
+            {
+                "value": 57,
+                "name": "Ecuador"
+            },
+            {
+                "value": 111,
+                "name": "Egypt"
+            },
+            {
+                "value": 76,
+                "name": "El Salvador"
+            },
+            {
+                "value": 14,
+                "name": "England"
+            },
+            {
+                "value": 112,
+                "name": "Equatorial Guinea"
+            },
+            {
+                "value": 113,
+                "name": "Eritrea"
+            },
+            {
+                "value": 208,
+                "name": "Estonia"
+            },
+            {
+                "value": 114,
+                "name": "Ethiopia"
+            },
+            {
+                "value": 16,
+                "name": "Faroe Islands"
+            },
+            {
+                "value": 197,
+                "name": "Fiji"
+            },
+            {
+                "value": 17,
+                "name": "Finland"
+            },
+            {
+                "value": 18,
+                "name": "France"
+            },
+            {
+                "value": 210,
+                "name": "Free Agents Country"
+            },
+            {
+                "value": 19,
+                "name": "FYR Macedonia"
+            },
+            {
+                "value": 115,
+                "name": "Gabon"
+            },
+            {
+                "value": 116,
+                "name": "Gambia"
+            },
+            {
+                "value": 20,
+                "name": "Georgia"
+            },
+            {
+                "value": 21,
+                "name": "Germany"
+            },
+            {
+                "value": 117,
+                "name": "Ghana"
+            },
+            {
+                "value": 205,
+                "name": "Gibraltar"
+            },
+            {
+                "value": 22,
+                "name": "Greece"
+            },
+            {
+                "value": 206,
+                "name": "Greenland"
+            },
+            {
+                "value": 77,
+                "name": "Grenada"
+            },
+            {
+                "value": 157,
+                "name": "Guam"
+            },
+            {
+                "value": 78,
+                "name": "Guatemala"
+            },
+            {
+                "value": 118,
+                "name": "Guinea"
+            },
+            {
+                "value": 119,
+                "name": "Guinea-Bissau"
+            },
+            {
+                "value": 79,
+                "name": "Guyana"
+            },
+            {
+                "value": 80,
+                "name": "Haiti"
+            },
+            {
+                "value": 34,
+                "name": "Holland"
+            },
+            {
+                "value": 81,
+                "name": "Honduras"
+            },
+            {
+                "value": 158,
+                "name": "Hong Kong"
+            },
+            {
+                "value": 23,
+                "name": "Hungary"
+            },
+            {
+                "value": 24,
+                "name": "Iceland"
+            },
+            {
+                "value": 159,
+                "name": "India"
+            },
+            {
+                "value": 160,
+                "name": "Indonesia"
+            },
+            {
+                "value": 75,
+                "name": "International"
+            },
+            {
+                "value": 222,
+                "name": "International Women"
+            },
+            {
+                "value": 161,
+                "name": "Iran"
+            },
+            {
+                "value": 162,
+                "name": "Iraq"
+            },
+            {
+                "value": 26,
+                "name": "Israel"
+            },
+            {
+                "value": 27,
+                "name": "Italy"
+            },
+            {
+                "value": 82,
+                "name": "Jamaica"
+            },
+            {
+                "value": 163,
+                "name": "Japan"
+            },
+            {
+                "value": 164,
+                "name": "Jordan"
+            },
+            {
+                "value": 165,
+                "name": "Kazakhstan"
+            },
+            {
+                "value": 120,
+                "name": "Kenya"
+            },
+            {
+                "value": 166,
+                "name": "Korea DPR"
+            },
+            {
+                "value": 167,
+                "name": "Korea Republic"
+            },
+            {
+                "value": 219,
+                "name": "Kosovo"
+            },
+            {
+                "value": 168,
+                "name": "Kuwait"
+            },
+            {
+                "value": 169,
+                "name": "Kyrgyzstan"
+            },
+            {
+                "value": 170,
+                "name": "Laos"
+            },
+            {
+                "value": 28,
+                "name": "Latvia"
+            },
+            {
+                "value": 171,
+                "name": "Lebanon"
+            },
+            {
+                "value": 121,
+                "name": "Lesotho"
+            },
+            {
+                "value": 122,
+                "name": "Liberia"
+            },
+            {
+                "value": 123,
+                "name": "Libya"
+            },
+            {
+                "value": 29,
+                "name": "Liechtenstein"
+            },
+            {
+                "value": 30,
+                "name": "Lithuania"
+            },
+            {
+                "value": 31,
+                "name": "Luxembourg"
+            },
+            {
+                "value": 172,
+                "name": "Macau"
+            },
+            {
+                "value": 124,
+                "name": "Madagascar"
+            },
+            {
+                "value": 125,
+                "name": "Malawi"
+            },
+            {
+                "value": 173,
+                "name": "Malaysia"
+            },
+            {
+                "value": 174,
+                "name": "Maldives"
+            },
+            {
+                "value": 126,
+                "name": "Mali"
+            },
+            {
+                "value": 32,
+                "name": "Malta"
+            },
+            {
+                "value": 127,
+                "name": "Mauritania"
+            },
+            {
+                "value": 128,
+                "name": "Mauritius"
+            },
+            {
+                "value": 83,
+                "name": "Mexico"
+            },
+            {
+                "value": 33,
+                "name": "Moldova"
+            },
+            {
+                "value": 175,
+                "name": "Mongolia"
+            },
+            {
+                "value": 15,
+                "name": "Montenegro"
+            },
+            {
+                "value": 84,
+                "name": "Montserrat"
+            },
+            {
+                "value": 129,
+                "name": "Morocco"
+            },
+            {
+                "value": 130,
+                "name": "Mozambique"
+            },
+            {
+                "value": 176,
+                "name": "Myanmar"
+            },
+            {
+                "value": 131,
+                "name": "Namibia"
+            },
+            {
+                "value": 177,
+                "name": "Nepal"
+            },
+            {
+                "value": 215,
+                "name": "New Caledonia"
+            },
+            {
+                "value": 198,
+                "name": "New Zealand"
+            },
+            {
+                "value": 86,
+                "name": "Nicaragua"
+            },
+            {
+                "value": 132,
+                "name": "Niger"
+            },
+            {
+                "value": 133,
+                "name": "Nigeria"
+            },
+            {
+                "value": 35,
+                "name": "Northern Ireland"
+            },
+            {
+                "value": 36,
+                "name": "Norway"
+            },
+            {
+                "value": 178,
+                "name": "Oman"
+            },
+            {
+                "value": 179,
+                "name": "Pakistan"
+            },
+            {
+                "value": 180,
+                "name": "Palestine"
+            },
+            {
+                "value": 87,
+                "name": "Panama"
+            },
+            {
+                "value": 199,
+                "name": "Papua New Guinea"
+            },
+            {
+                "value": 58,
+                "name": "Paraguay"
+            },
+            {
+                "value": 59,
+                "name": "Peru"
+            },
+            {
+                "value": 181,
+                "name": "Philippines"
+            },
+            {
+                "value": 37,
+                "name": "Poland"
+            },
+            {
+                "value": 38,
+                "name": "Portugal"
+            },
+            {
+                "value": 88,
+                "name": "Puerto Rico"
+            },
+            {
+                "value": 182,
+                "name": "Qatar"
+            },
+            {
+                "value": 25,
+                "name": "Republic of Ireland"
+            },
+            {
+                "value": 211,
+                "name": "Rest of World"
+            },
+            {
+                "value": 39,
+                "name": "Romania"
+            },
+            {
+                "value": 40,
+                "name": "Russia"
+            },
+            {
+                "value": 134,
+                "name": "Rwanda"
+            },
+            {
+                "value": 200,
+                "name": "Samoa"
+            },
+            {
+                "value": 41,
+                "name": "San Marino"
+            },
+            {
+                "value": 135,
+                "name": "Saint Thomas and Prince"
+            },
+            {
+                "value": 183,
+                "name": "Saudi Arabia"
+            },
+            {
+                "value": 42,
+                "name": "Scotland"
+            },
+            {
+                "value": 136,
+                "name": "Senegal"
+            },
+            {
+                "value": 51,
+                "name": "Serbia"
+            },
+            {
+                "value": 137,
+                "name": "Seychelles"
+            },
+            {
+                "value": 138,
+                "name": "Sierra Leone"
+            },
+            {
+                "value": 184,
+                "name": "Singapore"
+            },
+            {
+                "value": 43,
+                "name": "Slovakia"
+            },
+            {
+                "value": 44,
+                "name": "Slovenia"
+            },
+            {
+                "value": 201,
+                "name": "Solomon Islands"
+            },
+            {
+                "value": 139,
+                "name": "Somalia"
+            },
+            {
+                "value": 140,
+                "name": "South Africa"
+            },
+            {
+                "value": 218,
+                "name": "South Sudan"
+            },
+            {
+                "value": 45,
+                "name": "Spain"
+            },
+            {
+                "value": 185,
+                "name": "Sri Lanka"
+            },
+            {
+                "value": 89,
+                "name": "St. Kitts and Nevis"
+            },
+            {
+                "value": 90,
+                "name": "St. Lucia"
+            },
+            {
+                "value": 91,
+                "name": "St. Vincent and the Grenadines"
+            },
+            {
+                "value": 141,
+                "name": "Sudan"
+            },
+            {
+                "value": 92,
+                "name": "Suriname"
+            },
+            {
+                "value": 142,
+                "name": "Swaziland"
+            },
+            {
+                "value": 46,
+                "name": "Sweden"
+            },
+            {
+                "value": 47,
+                "name": "Switzerland"
+            },
+            {
+                "value": 186,
+                "name": "Syria"
+            },
+            {
+                "value": 202,
+                "name": "Tahiti"
+            },
+            {
+                "value": 187,
+                "name": "Tajikistan"
+            },
+            {
+                "value": 143,
+                "name": "Tanzania"
+            },
+            {
+                "value": 188,
+                "name": "Thailand"
+            },
+            {
+                "value": 212,
+                "name": "Timor-Leste"
+            },
+            {
+                "value": 144,
+                "name": "Togo"
+            },
+            {
+                "value": 203,
+                "name": "Tonga"
+            },
+            {
+                "value": 93,
+                "name": "Trinidad and Tobago"
+            },
+            {
+                "value": 145,
+                "name": "Tunisia"
+            },
+            {
+                "value": 48,
+                "name": "Turkey"
+            },
+            {
+                "value": 189,
+                "name": "Turkmenistan"
+            },
+            {
+                "value": 94,
+                "name": "Turks and Caicos Islands"
+            },
+            {
+                "value": 146,
+                "name": "Uganda"
+            },
+            {
+                "value": 49,
+                "name": "Ukraine"
+            },
+            {
+                "value": 190,
+                "name": "United Arab Emirates"
+            },
+            {
+                "value": 95,
+                "name": "United States"
+            },
+            {
+                "value": 60,
+                "name": "Uruguay"
+            },
+            {
+                "value": 96,
+                "name": "US Virgin Islands"
+            },
+            {
+                "value": 191,
+                "name": "Uzbekistan"
+            },
+            {
+                "value": 204,
+                "name": "Vanuatu"
+            },
+            {
+                "value": 61,
+                "name": "Venezuela"
+            },
+            {
+                "value": 192,
+                "name": "Vietnam"
+            },
+            {
+                "value": 50,
+                "name": "Wales"
+            },
+            {
+                "value": 193,
+                "name": "Yemen"
+            },
+            {
+                "value": 147,
+                "name": "Zambia"
+            },
+            {
+                "value": 148,
+                "name": "Zimbabwe"
+            }
+        ]
+    },
+    "player_role": {
+        "translate": true,
+        "items": [
+            {
+                "value": 0,
+                "name": "player_role_0"
+            },
+            {
+                "value": 1,
+                "name": "player_role_1"
+            },
+            {
+                "value": 2,
+                "name": "player_role_2"
+            },
+            {
+                "value": 3,
+                "name": "player_role_3"
+            },
+            {
+                "value": 4,
+                "name": "player_role_4"
+            },
+            {
+                "value": 5,
+                "name": "player_role_5"
+            }
+        ]
+    },
+    "positions": {
+        "translate": true,
+        "items": [
+            {
+                "value": -1,
+                "name": "NONE"
+            },
+            {
+                "value": 0,
+                "name": "pos_0_abbr"
+            },
+            {
+                "value": 1,
+                "name": "pos_1_abbr"
+            },
+            {
+                "value": 2,
+                "name": "pos_2_abbr"
+            },
+            {
+                "value": 3,
+                "name": "pos_3_abbr"
+            },
+            {
+                "value": 4,
+                "name": "pos_4_abbr"
+            },
+            {
+                "value": 5,
+                "name": "pos_5_abbr"
+            },
+            {
+                "value": 6,
+                "name": "pos_6_abbr"
+            },
+            {
+                "value": 7,
+                "name": "pos_7_abbr"
+            },
+            {
+                "value": 8,
+                "name": "pos_8_abbr"
+            },
+            {
+                "value": 9,
+                "name": "pos_9_abbr"
+            },
+            {
+                "value": 10,
+                "name": "pos_10_abbr"
+            },
+            {
+                "value": 11,
+                "name": "pos_11_abbr"
+            },
+            {
+                "value": 12,
+                "name": "pos_12_abbr"
+            },
+            {
+                "value": 13,
+                "name": "pos_13_abbr"
+            },
+            {
+                "value": 14,
+                "name": "pos_14_abbr"
+            },
+            {
+                "value": 15,
+                "name": "pos_15_abbr"
+            },
+            {
+                "value": 16,
+                "name": "pos_16_abbr"
+            },
+            {
+                "value": 17,
+                "name": "pos_17_abbr"
+            },
+            {
+                "value": 18,
+                "name": "pos_18_abbr"
+            },
+            {
+                "value": 19,
+                "name": "pos_19_abbr"
+            },
+            {
+                "value": 20,
+                "name": "pos_20_abbr"
+            },
+            {
+                "value": 21,
+                "name": "pos_21_abbr"
+            },
+            {
+                "value": 22,
+                "name": "pos_22_abbr"
+            },
+            {
+                "value": 23,
+                "name": "pos_23_abbr"
+            },
+            {
+                "value": 24,
+                "name": "pos_24_abbr"
+            },
+            {
+                "value": 25,
+                "name": "pos_25_abbr"
+            },
+            {
+                "value": 26,
+                "name": "pos_26_abbr"
+            },
+            {
+                "value": 27,
+                "name": "pos_27_abbr"
+            }
+        ]
+    },
+    "bodytypecode": {
+        "translate": false,
+        "items": [
+            {
+                "value": 1,
+                "name": "Average and Lean"
+            },
+            {
+                "value": 2,
+                "name": "Average and Normal"
+            },
+            {
+                "value": 3,
+                "name": "Average and Stocky"
+            },
+            {
+                "value": 4,
+                "name": "Tall and Lean"
+            },
+            {
+                "value": 5,
+                "name": "Tall and Normal"
+            },
+            {
+                "value": 6,
+                "name": "Tall and Stocky"
+            },
+            {
+                "value": 7,
+                "name": "Short and Lean"
+            },
+            {
+                "value": 8,
+                "name": "Short and Normal"
+            },
+            {
+                "value": 9,
+                "name": "Short and Stocky"
+            },
+            {
+                "value": 10,
+                "name": "Messi"
+            },
+            {
+                "value": 11,
+                "name": "Very Tall and Lean"
+            },
+            {
+                "value": 12,
+                "name": "Akinfenwa"
+            },
+            {
+                "value": 13,
+                "name": "Courtois"
+            },
+            {
+                "value": 14,
+                "name": "Neymar"
+            },
+            {
+                "value": 15,
+                "name": "Shaqiri"
+            },
+            {
+                "value": 16,
+                "name": "Cristiano Ronaldo"
+            },
+            {
+                "value": 17,
+                "name": "Leroux (Only Women)"
+            },
+            {
+                "value": 19,
+                "name": "Maradona (base)"
+            },
+            {
+                "value": 20,
+                "name": "Maradona (prime/medium)"
+            },
+            {
+                "value": 21,
+                "name": "Ronaldinho"
+            },
+            {
+                "value": 23,
+                "name": "Ronaldo (base)"
+            },
+            {
+                "value": 24,
+                "name": "Ronaldo (prime/medium)"
+            },
+            {
+                "value": 25,
+                "name": "Salah"
+            },
+            {
+                "value": 127,
+                "name": "Alex Morgan"
+            },
+            {
+                "value": 202,
+                "name": "Mean Male"
+            },
+            {
+                "value": 249,
+                "name": "Owusu Poulsen"
+            },
+            {
+                "value": 250,
+                "name": "Hakim Ziyech"
+            },
+            {
+                "value": 251,
+                "name": "Donny van de Beek"
+            },
+            {
+                "value": 252,
+                "name": "Dusan Tadic"
+            },
+            {
+                "value": 253,
+                "name": "Pierre-Emerick Aubameyang"
+            },
+            {
+                "value": 254,
+                "name": "Alexandre Lacazette"
+            },
+            {
+                "value": 255,
+                "name": "Nicolas Pepe"
+            },
+            {
+                "value": 256,
+                "name": "Sokratis"
+            },
+            {
+                "value": 257,
+                "name": "Mesut Ozil"
+            },
+            {
+                "value": 258,
+                "name": "Wissam Ben Yedder"
+            },
+            {
+                "value": 259,
+                "name": "Jan Oblak"
+            },
+            {
+                "value": 261,
+                "name": "Ousmane Dembele"
+            },
+            {
+                "value": 262,
+                "name": "Marc-Andre ter Stegen"
+            },
+            {
+                "value": 263,
+                "name": "Clement Lenglet"
+            },
+            {
+                "value": 264,
+                "name": "Frenkie de Jong"
+            },
+            {
+                "value": 265,
+                "name": "Pique"
+            },
+            {
+                "value": 266,
+                "name": "Antoine Griezmann"
+            },
+            {
+                "value": 267,
+                "name": "Arturo Vidal"
+            },
+            {
+                "value": 268,
+                "name": "Jordi Alba"
+            },
+            {
+                "value": 269,
+                "name": "Samuel Umtiti"
+            },
+            {
+                "value": 270,
+                "name": "Kai Havertz"
+            },
+            {
+                "value": 271,
+                "name": "Lucas Hernandez"
+            },
+            {
+                "value": 272,
+                "name": "Serge Gnabry"
+            },
+            {
+                "value": 273,
+                "name": "Manuel Neuer"
+            },
+            {
+                "value": 274,
+                "name": "Kingsley Coman"
+            },
+            {
+                "value": 275,
+                "name": "Leon Goretzka"
+            },
+            {
+                "value": 276,
+                "name": "Robert Lewandowski"
+            },
+            {
+                "value": 277,
+                "name": "Erling Haaland"
+            },
+            {
+                "value": 278,
+                "name": "Axel Witsel"
+            },
+            {
+                "value": 279,
+                "name": "Marco Reus"
+            },
+            {
+                "value": 282,
+                "name": "Radja Nainggolan"
+            },
+            {
+                "value": 283,
+                "name": "Ngolo Kante"
+            },
+            {
+                "value": 284,
+                "name": "Wilfried Zaha"
+            },
+            {
+                "value": 285,
+                "name": "Lucas Digne"
+            },
+            {
+                "value": 286,
+                "name": "Alex Telles"
+            },
+            {
+                "value": 287,
+                "name": "Guardiola"
+            },
+            {
+                "value": 288,
+                "name": "Roberto Carlos"
+            },
+            {
+                "value": 289,
+                "name": "Alessandro Nesta"
+            },
+            {
+                "value": 290,
+                "name": "Rio Ferdinand"
+            },
+            {
+                "value": 292,
+                "name": "Roberto Baggio"
+            },
+            {
+                "value": 293,
+                "name": "Alessandro Del Piero"
+            },
+            {
+                "value": 294,
+                "name": "Pele"
+            },
+            {
+                "value": 296,
+                "name": "Kaka"
+            },
+            {
+                "value": 297,
+                "name": "Ruud Gullit"
+            },
+            {
+                "value": 299,
+                "name": "Christian Eriksen"
+            },
+            {
+                "value": 300,
+                "name": "Samir Handanovic"
+            },
+            {
+                "value": 301,
+                "name": "Romelu Lukaku"
+            },
+            {
+                "value": 302,
+                "name": "Alexis Sanchez"
+            },
+            {
+                "value": 303,
+                "name": "Milan Skriniar"
+            },
+            {
+                "value": 304,
+                "name": "Stefan de Vrij"
+            },
+            {
+                "value": 305,
+                "name": "Ciro Immobile"
+            },
+            {
+                "value": 306,
+                "name": "Jamie Vardy"
+            },
+            {
+                "value": 307,
+                "name": "Ricardo Pereira"
+            },
+            {
+                "value": 308,
+                "name": "Georginio Wijnaldum"
+            },
+            {
+                "value": 309,
+                "name": "Joe Gomez"
+            },
+            {
+                "value": 310,
+                "name": "Andrew Robertson"
+            },
+            {
+                "value": 311,
+                "name": "Fabinho"
+            },
+            {
+                "value": 312,
+                "name": "Alisson"
+            },
+            {
+                "value": 313,
+                "name": "Sadio Mane"
+            },
+            {
+                "value": 314,
+                "name": "Virgil van Dijk"
+            },
+            {
+                "value": 315,
+                "name": "Roberto Firmino"
+            },
+            {
+                "value": 316,
+                "name": "Trent Alexander-Arnold"
+            },
+            {
+                "value": 317,
+                "name": "Kyle Walker"
+            },
+            {
+                "value": 318,
+                "name": "Joao Cancelo"
+            },
+            {
+                "value": 319,
+                "name": "Aymeric Laporte"
+            },
+            {
+                "value": 320,
+                "name": "Raheem Sterling"
+            },
+            {
+                "value": 321,
+                "name": "Kevin De Bruyne"
+            },
+            {
+                "value": 322,
+                "name": "Sergio Aguero"
+            },
+            {
+                "value": 323,
+                "name": "Leroy Sane"
+            },
+            {
+                "value": 324,
+                "name": "Riyad Mahrez"
+            },
+            {
+                "value": 325,
+                "name": "Ederson"
+            },
+            {
+                "value": 326,
+                "name": "Gabriel Jesus"
+            },
+            {
+                "value": 327,
+                "name": "Marcus Rashford"
+            },
+            {
+                "value": 328,
+                "name": "Anthony Martial"
+            },
+            {
+                "value": 329,
+                "name": "De Gea"
+            },
+            {
+                "value": 330,
+                "name": "Paul Pogba"
+            },
+            {
+                "value": 331,
+                "name": "Aaron Wan-Bissaka"
+            },
+            {
+                "value": 332,
+                "name": "Theo Hernandez"
+            },
+            {
+                "value": 333,
+                "name": "Gianluigi Donnarumma"
+            },
+            {
+                "value": 335,
+                "name": "Dries Mertens"
+            },
+            {
+                "value": 336,
+                "name": "Kalidou Koulibaly"
+            },
+            {
+                "value": 338,
+                "name": "Lorenzo Insigne"
+            },
+            {
+                "value": 339,
+                "name": "Douglas Costa"
+            },
+            {
+                "value": 340,
+                "name": "Blaise Matuidi"
+            },
+            {
+                "value": 341,
+                "name": "Alex Sandro"
+            },
+            {
+                "value": 342,
+                "name": "Paulo Dybala"
+            },
+            {
+                "value": 343,
+                "name": "Kylian Mbappe"
+            },
+            {
+                "value": 344,
+                "name": "Edinson Cavani"
+            },
+            {
+                "value": 345,
+                "name": "Angel Di Maria"
+            },
+            {
+                "value": 346,
+                "name": "Marco Verratti"
+            },
+            {
+                "value": 347,
+                "name": "Mauro Icardi"
+            },
+            {
+                "value": 348,
+                "name": "Timo Werner"
+            },
+            {
+                "value": 350,
+                "name": "Ferland Mendy"
+            },
+            {
+                "value": 351,
+                "name": "Raphael Varane"
+            },
+            {
+                "value": 352,
+                "name": "Sergio Ramos"
+            },
+            {
+                "value": 353,
+                "name": "Marcelo"
+            },
+            {
+                "value": 354,
+                "name": "Alphonse Areola"
+            },
+            {
+                "value": 355,
+                "name": "Carvajal"
+            },
+            {
+                "value": 356,
+                "name": "Eden Hazard"
+            },
+            {
+                "value": 357,
+                "name": "Gareth Bale"
+            },
+            {
+                "value": 358,
+                "name": "Casemiro"
+            },
+            {
+                "value": 359,
+                "name": "Nicolo Zaniolo"
+            },
+            {
+                "value": 361,
+                "name": "Moussa Sissoko"
+            },
+            {
+                "value": 362,
+                "name": "Davinson Sanchez"
+            },
+            {
+                "value": 363,
+                "name": "Lucas Moura"
+            },
+            {
+                "value": 364,
+                "name": "Tanguy Ndombele"
+            },
+            {
+                "value": 365,
+                "name": "Hugo Lloris"
+            },
+            {
+                "value": 366,
+                "name": "Heung Min Son"
+            },
+            {
+                "value": 367,
+                "name": "Dele Alli"
+            },
+            {
+                "value": 368,
+                "name": "Harry Kane"
+            },
+            {
+                "value": 369,
+                "name": "Abdoulaye Doucoure"
+            },
+            {
+                "value": 370,
+                "name": "Felipe Anderson"
+            },
+            {
+                "value": 373,
+                "name": "Adama Traore"
+            },
+            {
+                "value": 374,
+                "name": "Luis Suarez"
+            },
+            {
+                "value": 375,
+                "name": "Pepe Reina"
+            },
+            {
+                "value": 376,
+                "name": "Gonzalo Higuain"
+            },
+            {
+                "value": 377,
+                "name": "Alessandro Florenzi"
+            },
+            {
+                "value": 380,
+                "name": "Alphonso Davies"
+            },
+            {
+                "value": 381,
+                "name": "Zlatan Ibrahimovic"
+            }
+        ]
+    },
+    "height": {
+        "translate": false,
+        "items": [
+            {
+                "value": 130,
+                "name": "130 cm / 4 ft. 3 inch"
+            },
+            {
+                "value": 131,
+                "name": "131 cm / 4 ft. 4 inch"
+            },
+            {
+                "value": 132,
+                "name": "132 cm / 4 ft. 4 inch"
+            },
+            {
+                "value": 133,
+                "name": "133 cm / 4 ft. 4 inch"
+            },
+            {
+                "value": 134,
+                "name": "134 cm / 4 ft. 5 inch"
+            },
+            {
+                "value": 135,
+                "name": "135 cm / 4 ft. 5 inch"
+            },
+            {
+                "value": 136,
+                "name": "136 cm / 4 ft. 6 inch"
+            },
+            {
+                "value": 137,
+                "name": "137 cm / 4 ft. 6 inch"
+            },
+            {
+                "value": 138,
+                "name": "138 cm / 4 ft. 6 inch"
+            },
+            {
+                "value": 139,
+                "name": "139 cm / 4 ft. 7 inch"
+            },
+            {
+                "value": 140,
+                "name": "140 cm / 4 ft. 7 inch"
+            },
+            {
+                "value": 141,
+                "name": "141 cm / 4 ft. 8 inch"
+            },
+            {
+                "value": 142,
+                "name": "142 cm / 4 ft. 8 inch"
+            },
+            {
+                "value": 143,
+                "name": "143 cm / 4 ft. 8 inch"
+            },
+            {
+                "value": 144,
+                "name": "144 cm / 4 ft. 9 inch"
+            },
+            {
+                "value": 145,
+                "name": "145 cm / 4 ft. 9 inch"
+            },
+            {
+                "value": 146,
+                "name": "146 cm / 4 ft. 9 inch"
+            },
+            {
+                "value": 147,
+                "name": "147 cm / 4 ft. 10 inch"
+            },
+            {
+                "value": 148,
+                "name": "148 cm / 4 ft. 10 inch"
+            },
+            {
+                "value": 149,
+                "name": "149 cm / 4 ft. 11 inch"
+            },
+            {
+                "value": 150,
+                "name": "150 cm / 4 ft. 11 inch"
+            },
+            {
+                "value": 151,
+                "name": "151 cm / 4 ft. 11 inch"
+            },
+            {
+                "value": 152,
+                "name": "152 cm / 5 ft. 0 inch"
+            },
+            {
+                "value": 153,
+                "name": "153 cm / 5 ft. 0 inch"
+            },
+            {
+                "value": 154,
+                "name": "154 cm / 5 ft. 1 inch"
+            },
+            {
+                "value": 155,
+                "name": "155 cm / 5 ft. 1 inch"
+            },
+            {
+                "value": 156,
+                "name": "156 cm / 5 ft. 1 inch"
+            },
+            {
+                "value": 157,
+                "name": "157 cm / 5 ft. 2 inch"
+            },
+            {
+                "value": 158,
+                "name": "158 cm / 5 ft. 2 inch"
+            },
+            {
+                "value": 159,
+                "name": "159 cm / 5 ft. 3 inch"
+            },
+            {
+                "value": 160,
+                "name": "160 cm / 5 ft. 3 inch"
+            },
+            {
+                "value": 161,
+                "name": "161 cm / 5 ft. 3 inch"
+            },
+            {
+                "value": 162,
+                "name": "162 cm / 5 ft. 4 inch"
+            },
+            {
+                "value": 163,
+                "name": "163 cm / 5 ft. 4 inch"
+            },
+            {
+                "value": 164,
+                "name": "164 cm / 5 ft. 5 inch"
+            },
+            {
+                "value": 165,
+                "name": "165 cm / 5 ft. 5 inch"
+            },
+            {
+                "value": 166,
+                "name": "166 cm / 5 ft. 5 inch"
+            },
+            {
+                "value": 167,
+                "name": "167 cm / 5 ft. 6 inch"
+            },
+            {
+                "value": 168,
+                "name": "168 cm / 5 ft. 6 inch"
+            },
+            {
+                "value": 169,
+                "name": "169 cm / 5 ft. 7 inch"
+            },
+            {
+                "value": 170,
+                "name": "170 cm / 5 ft. 7 inch"
+            },
+            {
+                "value": 171,
+                "name": "171 cm / 5 ft. 7 inch"
+            },
+            {
+                "value": 172,
+                "name": "172 cm / 5 ft. 8 inch"
+            },
+            {
+                "value": 173,
+                "name": "173 cm / 5 ft. 8 inch"
+            },
+            {
+                "value": 174,
+                "name": "174 cm / 5 ft. 9 inch"
+            },
+            {
+                "value": 175,
+                "name": "175 cm / 5 ft. 9 inch"
+            },
+            {
+                "value": 176,
+                "name": "176 cm / 5 ft. 9 inch"
+            },
+            {
+                "value": 177,
+                "name": "177 cm / 5 ft. 10 inch"
+            },
+            {
+                "value": 178,
+                "name": "178 cm / 5 ft. 10 inch"
+            },
+            {
+                "value": 179,
+                "name": "179 cm / 5 ft. 10 inch"
+            },
+            {
+                "value": 180,
+                "name": "180 cm / 5 ft. 11 inch"
+            },
+            {
+                "value": 181,
+                "name": "181 cm / 5 ft. 11 inch"
+            },
+            {
+                "value": 182,
+                "name": "182 cm / 6 ft. 0 inch"
+            },
+            {
+                "value": 183,
+                "name": "183 cm / 6 ft. 0 inch"
+            },
+            {
+                "value": 184,
+                "name": "184 cm / 6 ft. 0 inch"
+            },
+            {
+                "value": 185,
+                "name": "185 cm / 6 ft. 1 inch"
+            },
+            {
+                "value": 186,
+                "name": "186 cm / 6 ft. 1 inch"
+            },
+            {
+                "value": 187,
+                "name": "187 cm / 6 ft. 2 inch"
+            },
+            {
+                "value": 188,
+                "name": "188 cm / 6 ft. 2 inch"
+            },
+            {
+                "value": 189,
+                "name": "189 cm / 6 ft. 2 inch"
+            },
+            {
+                "value": 190,
+                "name": "190 cm / 6 ft. 3 inch"
+            },
+            {
+                "value": 191,
+                "name": "191 cm / 6 ft. 3 inch"
+            },
+            {
+                "value": 192,
+                "name": "192 cm / 6 ft. 4 inch"
+            },
+            {
+                "value": 193,
+                "name": "193 cm / 6 ft. 4 inch"
+            },
+            {
+                "value": 194,
+                "name": "194 cm / 6 ft. 4 inch"
+            },
+            {
+                "value": 195,
+                "name": "195 cm / 6 ft. 5 inch"
+            },
+            {
+                "value": 196,
+                "name": "196 cm / 6 ft. 5 inch"
+            },
+            {
+                "value": 197,
+                "name": "197 cm / 6 ft. 6 inch"
+            },
+            {
+                "value": 198,
+                "name": "198 cm / 6 ft. 6 inch"
+            },
+            {
+                "value": 199,
+                "name": "199 cm / 6 ft. 6 inch"
+            },
+            {
+                "value": 200,
+                "name": "200 cm / 6 ft. 7 inch"
+            },
+            {
+                "value": 201,
+                "name": "201 cm / 6 ft. 7 inch"
+            },
+            {
+                "value": 202,
+                "name": "202 cm / 6 ft. 8 inch"
+            },
+            {
+                "value": 203,
+                "name": "203 cm / 6 ft. 8 inch"
+            },
+            {
+                "value": 204,
+                "name": "204 cm / 6 ft. 8 inch"
+            },
+            {
+                "value": 205,
+                "name": "205 cm / 6 ft. 9 inch"
+            },
+            {
+                "value": 206,
+                "name": "206 cm / 6 ft. 9 inch"
+            },
+            {
+                "value": 207,
+                "name": "207 cm / 6 ft. 9 inch"
+            },
+            {
+                "value": 208,
+                "name": "208 cm / 6 ft. 10 inch"
+            },
+            {
+                "value": 209,
+                "name": "209 cm / 6 ft. 10 inch"
+            },
+            {
+                "value": 210,
+                "name": "210 cm / 6 ft. 11 inch"
+            },
+            {
+                "value": 211,
+                "name": "211 cm / 6 ft. 11 inch"
+            },
+            {
+                "value": 212,
+                "name": "212 cm / 6 ft. 11 inch"
+            },
+            {
+                "value": 213,
+                "name": "213 cm / 7 ft. 0 inch"
+            },
+            {
+                "value": 214,
+                "name": "214 cm / 7 ft. 0 inch"
+            },
+            {
+                "value": 215,
+                "name": "215 cm / 7 ft. 1 inch"
+            }
+        ]
+    },
+    "weight": {
+        "translate": false,
+        "items": [
+            {
+                "value": 30,
+                "name": "30 kg / 66 lb"
+            },
+            {
+                "value": 31,
+                "name": "31 kg / 68 lb"
+            },
+            {
+                "value": 32,
+                "name": "32 kg / 70 lb"
+            },
+            {
+                "value": 33,
+                "name": "33 kg / 72 lb"
+            },
+            {
+                "value": 34,
+                "name": "34 kg / 74 lb"
+            },
+            {
+                "value": 35,
+                "name": "35 kg / 77 lb"
+            },
+            {
+                "value": 36,
+                "name": "36 kg / 79 lb"
+            },
+            {
+                "value": 37,
+                "name": "37 kg / 81 lb"
+            },
+            {
+                "value": 38,
+                "name": "38 kg / 83 lb"
+            },
+            {
+                "value": 39,
+                "name": "39 kg / 85 lb"
+            },
+            {
+                "value": 40,
+                "name": "40 kg / 88 lb"
+            },
+            {
+                "value": 41,
+                "name": "41 kg / 90 lb"
+            },
+            {
+                "value": 42,
+                "name": "42 kg / 92 lb"
+            },
+            {
+                "value": 43,
+                "name": "43 kg / 94 lb"
+            },
+            {
+                "value": 44,
+                "name": "44 kg / 97 lb"
+            },
+            {
+                "value": 45,
+                "name": "45 kg / 99 lb"
+            },
+            {
+                "value": 46,
+                "name": "46 kg / 101 lb"
+            },
+            {
+                "value": 47,
+                "name": "47 kg / 103 lb"
+            },
+            {
+                "value": 48,
+                "name": "48 kg / 105 lb"
+            },
+            {
+                "value": 49,
+                "name": "49 kg / 108 lb"
+            },
+            {
+                "value": 50,
+                "name": "50 kg / 110 lb"
+            },
+            {
+                "value": 51,
+                "name": "51 kg / 112 lb"
+            },
+            {
+                "value": 52,
+                "name": "52 kg / 114 lb"
+            },
+            {
+                "value": 53,
+                "name": "53 kg / 116 lb"
+            },
+            {
+                "value": 54,
+                "name": "54 kg / 119 lb"
+            },
+            {
+                "value": 55,
+                "name": "55 kg / 121 lb"
+            },
+            {
+                "value": 56,
+                "name": "56 kg / 123 lb"
+            },
+            {
+                "value": 57,
+                "name": "57 kg / 125 lb"
+            },
+            {
+                "value": 58,
+                "name": "58 kg / 127 lb"
+            },
+            {
+                "value": 59,
+                "name": "59 kg / 130 lb"
+            },
+            {
+                "value": 60,
+                "name": "60 kg / 132 lb"
+            },
+            {
+                "value": 61,
+                "name": "61 kg / 134 lb"
+            },
+            {
+                "value": 62,
+                "name": "62 kg / 136 lb"
+            },
+            {
+                "value": 63,
+                "name": "63 kg / 138 lb"
+            },
+            {
+                "value": 64,
+                "name": "64 kg / 141 lb"
+            },
+            {
+                "value": 65,
+                "name": "65 kg / 143 lb"
+            },
+            {
+                "value": 66,
+                "name": "66 kg / 145 lb"
+            },
+            {
+                "value": 67,
+                "name": "67 kg / 147 lb"
+            },
+            {
+                "value": 68,
+                "name": "68 kg / 149 lb"
+            },
+            {
+                "value": 69,
+                "name": "69 kg / 152 lb"
+            },
+            {
+                "value": 70,
+                "name": "70 kg / 154 lb"
+            },
+            {
+                "value": 71,
+                "name": "71 kg / 156 lb"
+            },
+            {
+                "value": 72,
+                "name": "72 kg / 158 lb"
+            },
+            {
+                "value": 73,
+                "name": "73 kg / 160 lb"
+            },
+            {
+                "value": 74,
+                "name": "74 kg / 163 lb"
+            },
+            {
+                "value": 75,
+                "name": "75 kg / 165 lb"
+            },
+            {
+                "value": 76,
+                "name": "76 kg / 167 lb"
+            },
+            {
+                "value": 77,
+                "name": "77 kg / 169 lb"
+            },
+            {
+                "value": 78,
+                "name": "78 kg / 171 lb"
+            },
+            {
+                "value": 79,
+                "name": "79 kg / 174 lb"
+            },
+            {
+                "value": 80,
+                "name": "80 kg / 176 lb"
+            },
+            {
+                "value": 81,
+                "name": "81 kg / 178 lb"
+            },
+            {
+                "value": 82,
+                "name": "82 kg / 180 lb"
+            },
+            {
+                "value": 83,
+                "name": "83 kg / 182 lb"
+            },
+            {
+                "value": 84,
+                "name": "84 kg / 185 lb"
+            },
+            {
+                "value": 85,
+                "name": "85 kg / 187 lb"
+            },
+            {
+                "value": 86,
+                "name": "86 kg / 189 lb"
+            },
+            {
+                "value": 87,
+                "name": "87 kg / 191 lb"
+            },
+            {
+                "value": 88,
+                "name": "88 kg / 194 lb"
+            },
+            {
+                "value": 89,
+                "name": "89 kg / 196 lb"
+            },
+            {
+                "value": 90,
+                "name": "90 kg / 198 lb"
+            },
+            {
+                "value": 91,
+                "name": "91 kg / 200 lb"
+            },
+            {
+                "value": 92,
+                "name": "92 kg / 202 lb"
+            },
+            {
+                "value": 93,
+                "name": "93 kg / 205 lb"
+            },
+            {
+                "value": 94,
+                "name": "94 kg / 207 lb"
+            },
+            {
+                "value": 95,
+                "name": "95 kg / 209 lb"
+            },
+            {
+                "value": 96,
+                "name": "96 kg / 211 lb"
+            },
+            {
+                "value": 97,
+                "name": "97 kg / 213 lb"
+            },
+            {
+                "value": 98,
+                "name": "98 kg / 216 lb"
+            },
+            {
+                "value": 99,
+                "name": "99 kg / 218 lb"
+            },
+            {
+                "value": 100,
+                "name": "100 kg / 220 lb"
+            },
+            {
+                "value": 101,
+                "name": "101 kg / 222 lb"
+            },
+            {
+                "value": 102,
+                "name": "102 kg / 224 lb"
+            },
+            {
+                "value": 103,
+                "name": "103 kg / 227 lb"
+            },
+            {
+                "value": 104,
+                "name": "104 kg / 229 lb"
+            },
+            {
+                "value": 105,
+                "name": "105 kg / 231 lb"
+            },
+            {
+                "value": 106,
+                "name": "106 kg / 233 lb"
+            },
+            {
+                "value": 107,
+                "name": "107 kg / 235 lb"
+            },
+            {
+                "value": 108,
+                "name": "108 kg / 238 lb"
+            },
+            {
+                "value": 109,
+                "name": "109 kg / 240 lb"
+            },
+            {
+                "value": 110,
+                "name": "110 kg / 242 lb"
+            },
+            {
+                "value": 111,
+                "name": "111 kg / 244 lb"
+            },
+            {
+                "value": 112,
+                "name": "112 kg / 246 lb"
+            },
+            {
+                "value": 113,
+                "name": "113 kg / 249 lb"
+            },
+            {
+                "value": 114,
+                "name": "114 kg / 251 lb"
+            },
+
+            {
+                "value": 115,
+                "name": "115 kg / 253 lb"
+            }
+        ]
+    },
+    "contract_bonus_type": {
+        "translate": true,
+        "items": [
+            {
+                "value": 0,
+                "name": "NONE"
+            },
+            {
+                "value": 1,
+                "name": "appearances"
+            },
+            {
+                "value": 2,
+                "name": "clean_sheets"
+            },
+            {
+                "value": 3,
+                "name": "goals_scored"
+            }
+        ]
+    },
+    "form": {
+        "translate": true,
+        "items": [
+            {
+                "value": 1,
+                "name": "form_bad"
+            },
+            {
+                "value": 2,
+                "name": "form_poor"
+            },
+            {
+                "value": 3,
+                "name": "form_okay"
+            },
+            {
+                "value": 4,
+                "name": "form_good"
+            },
+            {
+                "value": 5,
+                "name": "form_excellent"
+            }
+        ]
+    },
+    "morale": {
+        "translate": true,
+        "items": [
+            {
+                "value": 0,
+                "name": "morale_very_unhappy"
+            },
+            {
+                "value": 1,
+                "name": "morale_unhappy"
+            },
+            {
+                "value": 2,
+                "name": "morale_content"
+            },
+            {
+                "value": 3,
+                "name": "morale_happy"
+            },
+            {
+                "value": 4,
+                "name": "morale_very_happy"
+            }
+        ]
+    },
+    "injurytype": {
+        "translate": true,
+        "items": [
+            {
+                "value": 0,
+                "name": "NONE"
+            },
+            {
+                "value": 1,
+                "name": "injurytype_1"
+            },
+            {
+                "value": 2,
+                "name": "injurytype_2"
+            },
+            {
+                "value": 3,
+                "name": "injurytype_3"
+            },
+            {
+                "value": 4,
+                "name": "injurytype_4"
+            },
+            {
+                "value": 5,
+                "name": "injurytype_5"
+            },
+            {
+                "value": 6,
+                "name": "injurytype_6"
+            },
+            {
+                "value": 7,
+                "name": "injurytype_7"
+            },
+            {
+                "value": 8,
+                "name": "injurytype_8"
+            },
+            {
+                "value": 9,
+                "name": "injurytype_9"
+            },
+            {
+                "value": 10,
+                "name": "injurytype_10"
+            },
+            {
+                "value": 11,
+                "name": "injurytype_11"
+            },
+            {
+                "value": 12,
+                "name": "injurytype_12"
+            },
+            {
+                "value": 13,
+                "name": "injurytype_13"
+            },
+            {
+                "value": 14,
+                "name": "injurytype_14"
+            },
+            {
+                "value": 15,
+                "name": "injurytype_15"
+            },
+            {
+                "value": 16,
+                "name": "injurytype_16"
+            },
+            {
+                "value": 17,
+                "name": "injurytype_17"
+            },
+            {
+                "value": 18,
+                "name": "injurytype_18"
+            },
+            {
+                "value": 19,
+                "name": "injurytype_19"
+            },
+            {
+                "value": 20,
+                "name": "injurytype_20"
+            },
+            {
+                "value": 21,
+                "name": "injurytype_21"
+            },
+            {
+                "value": 22,
+                "name": "injurytype_22"
+            },
+            {
+                "value": 23,
+                "name": "injurytype_23"
+            },
+            {
+                "value": 24,
+                "name": "injurytype_24"
+            },
+            {
+                "value": 25,
+                "name": "injurytype_25"
+            },
+            {
+                "value": 26,
+                "name": "injurytype_26"
+            },
+            {
+                "value": 27,
+                "name": "injurytype_27"
+            },
+            {
+                "value": 28,
+                "name": "injurytype_28"
+            },
+            {
+                "value": 29,
+                "name": "injurytype_29"
+            },
+            {
+                "value": 30,
+                "name": "injurytype_30"
+            },
+            {
+                "value": 31,
+                "name": "injurytype_31"
+            },
+            {
+                "value": 32,
+                "name": "injurytype_32"
+            },
+            {
+                "value": 33,
+                "name": "injurytype_33"
+            },
+            {
+                "value": 34,
+                "name": "injurytype_34"
+            },
+            {
+                "value": 35,
+                "name": "injurytype_35"
+            }
+        ]
+    },
+    "starskill": {
+        "translate": true,
+        "items": [
+            {
+                "value": 0,
+                "name": "one_star"
+            },
+            {
+                "value": 1,
+                "name": "two_stars"
+            },
+            {
+                "value": 2,
+                "name": "three_stars"
+            },
+            {
+                "value": 3,
+                "name": "four_stars"
+            },
+            {
+                "value": 4,
+                "name": "five_stars"
+            }
+        ]
+    },
+    "starskill_alt": {
+        "translate": true,
+        "items": [
+            {
+                "value": 1,
+                "name": "one_star"
+            },
+            {
+                "value": 2,
+                "name": "two_stars"
+            },
+            {
+                "value": 3,
+                "name": "three_stars"
+            },
+            {
+                "value": 4,
+                "name": "four_stars"
+            },
+            {
+                "value": 5,
+                "name": "five_stars"
+            }
+        ]
+    },
+    "workrates": {
+        "translate": true,
+        "items": [
+            {
+                "value": 1,
+                "name": "low"
+            },
+            {
+                "value": 0,
+                "name": "medium"
+            },
+            {
+                "value": 2,
+                "name": "high"
+            }
+        ]
+    },
+    "preferredfoot": {
+        "translate": true,
+        "items": [
+            {
+                "value": 1,
+                "name": "right"
+            },
+            {
+                "value": 2,
+                "name": "left"
+            }
+        ]
+    },
+    "gksavetype": {
+        "translate": true,
+        "items": [
+            {
+                "value": 0,
+                "name": "traditional"
+            },
+            {
+                "value": 1,
+                "name": "acrobatic"
+            }
+        ]
+    },
+    "gender": {
+        "translate": true,
+        "items": [
+            {
+                "value": 0,
+                "name": "male"
+            },
+            {
+                "value": 1,
+                "name": "female"
+            }
+        ]
+    },
+    "percentage": {
+        "translate": false,
+        "items": [
+            {
+                "value": 0,
+                "name": "0%"
+            },
+            {
+                "value": 1,
+                "name": "1%"
+            },
+            {
+                "value": 2,
+                "name": "2%"
+            },
+            {
+                "value": 3,
+                "name": "3%"
+            },
+            {
+                "value": 4,
+                "name": "4%"
+            },
+            {
+                "value": 5,
+                "name": "5%"
+            },
+            {
+                "value": 6,
+                "name": "6%"
+            },
+            {
+                "value": 7,
+                "name": "7%"
+            },
+            {
+                "value": 8,
+                "name": "8%"
+            },
+            {
+                "value": 9,
+                "name": "9%"
+            },
+            {
+                "value": 10,
+                "name": "10%"
+            },
+            {
+                "value": 11,
+                "name": "11%"
+            },
+            {
+                "value": 12,
+                "name": "12%"
+            },
+            {
+                "value": 13,
+                "name": "13%"
+            },
+            {
+                "value": 14,
+                "name": "14%"
+            },
+            {
+                "value": 15,
+                "name": "15%"
+            },
+            {
+                "value": 16,
+                "name": "16%"
+            },
+            {
+                "value": 17,
+                "name": "17%"
+            },
+            {
+                "value": 18,
+                "name": "18%"
+            },
+            {
+                "value": 19,
+                "name": "19%"
+            },
+            {
+                "value": 20,
+                "name": "20%"
+            },
+            {
+                "value": 21,
+                "name": "21%"
+            },
+            {
+                "value": 22,
+                "name": "22%"
+            },
+            {
+                "value": 23,
+                "name": "23%"
+            },
+            {
+                "value": 24,
+                "name": "24%"
+            },
+            {
+                "value": 25,
+                "name": "25%"
+            },
+            {
+                "value": 26,
+                "name": "26%"
+            },
+            {
+                "value": 27,
+                "name": "27%"
+            },
+            {
+                "value": 28,
+                "name": "28%"
+            },
+            {
+                "value": 29,
+                "name": "29%"
+            },
+            {
+                "value": 30,
+                "name": "30%"
+            },
+            {
+                "value": 31,
+                "name": "31%"
+            },
+            {
+                "value": 32,
+                "name": "32%"
+            },
+            {
+                "value": 33,
+                "name": "33%"
+            },
+            {
+                "value": 34,
+                "name": "34%"
+            },
+            {
+                "value": 35,
+                "name": "35%"
+            },
+            {
+                "value": 36,
+                "name": "36%"
+            },
+            {
+                "value": 37,
+                "name": "37%"
+            },
+            {
+                "value": 38,
+                "name": "38%"
+            },
+            {
+                "value": 39,
+                "name": "39%"
+            },
+            {
+                "value": 40,
+                "name": "40%"
+            },
+            {
+                "value": 41,
+                "name": "41%"
+            },
+            {
+                "value": 42,
+                "name": "42%"
+            },
+            {
+                "value": 43,
+                "name": "43%"
+            },
+            {
+                "value": 44,
+                "name": "44%"
+            },
+            {
+                "value": 45,
+                "name": "45%"
+            },
+            {
+                "value": 46,
+                "name": "46%"
+            },
+            {
+                "value": 47,
+                "name": "47%"
+            },
+            {
+                "value": 48,
+                "name": "48%"
+            },
+            {
+                "value": 49,
+                "name": "49%"
+            },
+            {
+                "value": 50,
+                "name": "50%"
+            },
+            {
+                "value": 51,
+                "name": "51%"
+            },
+            {
+                "value": 52,
+                "name": "52%"
+            },
+            {
+                "value": 53,
+                "name": "53%"
+            },
+            {
+                "value": 54,
+                "name": "54%"
+            },
+            {
+                "value": 55,
+                "name": "55%"
+            },
+            {
+                "value": 56,
+                "name": "56%"
+            },
+            {
+                "value": 57,
+                "name": "57%"
+            },
+            {
+                "value": 58,
+                "name": "58%"
+            },
+            {
+                "value": 59,
+                "name": "59%"
+            },
+            {
+                "value": 60,
+                "name": "60%"
+            },
+            {
+                "value": 61,
+                "name": "61%"
+            },
+            {
+                "value": 62,
+                "name": "62%"
+            },
+            {
+                "value": 63,
+                "name": "63%"
+            },
+            {
+                "value": 64,
+                "name": "64%"
+            },
+            {
+                "value": 65,
+                "name": "65%"
+            },
+            {
+                "value": 66,
+                "name": "66%"
+            },
+            {
+                "value": 67,
+                "name": "67%"
+            },
+            {
+                "value": 68,
+                "name": "68%"
+            },
+            {
+                "value": 69,
+                "name": "69%"
+            },
+            {
+                "value": 70,
+                "name": "70%"
+            },
+            {
+                "value": 71,
+                "name": "71%"
+            },
+            {
+                "value": 72,
+                "name": "72%"
+            },
+            {
+                "value": 73,
+                "name": "73%"
+            },
+            {
+                "value": 74,
+                "name": "74%"
+            },
+            {
+                "value": 75,
+                "name": "75%"
+            },
+            {
+                "value": 76,
+                "name": "76%"
+            },
+            {
+                "value": 77,
+                "name": "77%"
+            },
+            {
+                "value": 78,
+                "name": "78%"
+            },
+            {
+                "value": 79,
+                "name": "79%"
+            },
+            {
+                "value": 80,
+                "name": "80%"
+            },
+            {
+                "value": 81,
+                "name": "81%"
+            },
+            {
+                "value": 82,
+                "name": "82%"
+            },
+            {
+                "value": 83,
+                "name": "83%"
+            },
+            {
+                "value": 84,
+                "name": "84%"
+            },
+            {
+                "value": 85,
+                "name": "85%"
+            },
+            {
+                "value": 86,
+                "name": "86%"
+            },
+            {
+                "value": 87,
+                "name": "87%"
+            },
+            {
+                "value": 88,
+                "name": "88%"
+            },
+            {
+                "value": 89,
+                "name": "89%"
+            },
+            {
+                "value": 90,
+                "name": "90%"
+            },
+            {
+                "value": 91,
+                "name": "91%"
+            },
+            {
+                "value": 92,
+                "name": "92%"
+            },
+            {
+                "value": 93,
+                "name": "93%"
+            },
+            {
+                "value": 94,
+                "name": "94%"
+            },
+            {
+                "value": 95,
+                "name": "95%"
+            },
+            {
+                "value": 96,
+                "name": "96%"
+            },
+            {
+                "value": 97,
+                "name": "97%"
+            },
+            {
+                "value": 98,
+                "name": "98%"
+            },
+            {
+                "value": 99,
+                "name": "99%"
+            },
+            {
+                "value": 100,
+                "name": "100%"
+            }
+        ]
+    },
+    "no_yes": {
+        "translate": true,
+        "items": [
+            {
+                "value": 0,
+                "name": "no"
+            },
+            {
+                "value": 1,
+                "name": "yes"
+            }
+        ]
+    }
+}

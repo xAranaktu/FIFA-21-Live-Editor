@@ -1,7 +1,4 @@
 {
-    "Lua": {
-        "execute_in_all_states": "0"
-    },
     "Logger": {
         "log_game_logs": "0",
         "log_get_file_info": "0",
@@ -9,6 +6,12 @@
         "log_level": "1",
         "log_load_file": "0",
         "luaL_tolstring": "0"
+    },
+    "Lua": {
+        "execute_in_all_states": "0"
+    },
+    "Other": {
+        "show_player_potential": "1"
     },
     "Overlay": {
         "corner": "0",
