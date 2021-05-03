@@ -1,24 +1,38 @@
 {
-    "Logger": {
-        "log_game_logs": "0",
-        "log_get_file_info": "0",
-        "log_iniread": "0",
-        "log_level": "1",
-        "log_load_file": "0",
-        "luaL_tolstring": "0"
-    },
     "Lua": {
-        "execute_in_all_states": "0"
+        "execute_in_all_states": false
     },
     "Other": {
-        "show_player_potential": "1"
+        "show_player_potential": true
+    },
+    "Logger": {
+        "log_game_logs": false,
+        "log_get_file_info": false,
+        "log_iniread": false,
+        "log_level": 1,
+        "log_load_file": false,
+        "luaL_tolstring": false
+    },
+    "Hotkeys": {
+        "show_menu_keys": {
+            "enabled": true,
+            "keys_combination": [ 122, 0, 0 ]
+        },
+        "hide_ui_keys": {
+            "enabled": true,
+            "keys_combination": [ 120, 0, 0 ]
+        },
+        "eject_dll": {
+            "enabled": false,
+            "keys_combination": [ 35, 0, 0 ]
+        }
     },
     "Overlay": {
-        "corner": "0",
-        "show_current_screen": "1",
-        "show_fps": "1",
-        "show_hotkeys": "1",
-        "show_title_label": "1",
-        "transparency": "0.350000"
+        "corner": 0,
+        "show_current_screen": true,
+        "show_fps": true,
+        "show_hotkeys": true,
+        "show_title_label": true,
+        "transparency": 0.35
     }
 }

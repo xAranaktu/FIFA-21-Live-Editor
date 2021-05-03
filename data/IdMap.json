@@ -1,4 +1,461 @@
 {
+    "keys": {
+        "translate": false,
+        "items": [
+            {
+                "value": 0,
+                "name": "None"
+            },
+            {
+                "value": 8,
+                "name": "BACKSPACE"
+            },
+            {
+                "value": 9,
+                "name": "TAB"
+            },
+            {
+                "value": 12,
+                "name": "CLEAR"
+            },
+            {
+                "value": 13,
+                "name": "ENTER"
+            },
+            {
+                "value": 16,
+                "name": "SHIFT"
+            },
+            {
+                "value": 17,
+                "name": "CONTROL"
+            },
+            {
+                "value": 18,
+                "name": "ALT"
+            },
+            {
+                "value": 19,
+                "name": "PAUSE"
+            },
+            {
+                "value": 20,
+                "name": "CAPS LOCK"
+            },
+            {
+                "value": 27,
+                "name": "ESCAPE"
+            },
+            {
+                "value": 32,
+                "name": "SPACE"
+            },
+            {
+                "value": 33,
+                "name": "PAGE UP"
+            },
+            {
+                "value": 34,
+                "name": "PAGE DOWN"
+            },
+            {
+                "value": 35,
+                "name": "END"
+            },
+            {
+                "value": 36,
+                "name": "HOME"
+            },
+            {
+                "value": 37,
+                "name": "LEFT ARROW"
+            },
+            {
+                "value": 38,
+                "name": "UP ARROW"
+            },
+            {
+                "value": 39,
+                "name": "RIGHT ARROW"
+            },
+            {
+                "value": 40,
+                "name": "DOWN ARROW"
+            },
+            {
+                "value": 41,
+                "name": "SELECT"
+            },
+            {
+                "value": 43,
+                "name": "EXECUTE"
+            },
+            {
+                "value": 45,
+                "name": "INSERT"
+            },
+            {
+                "value": 46,
+                "name": "DELETE"
+            },
+            {
+                "value": 47,
+                "name": "HELP"
+            },
+            {
+                "value": 48,
+                "name": "0"
+            },
+            {
+                "value": 49,
+                "name": "1"
+            },
+            {
+                "value": 50,
+                "name": "2"
+            },
+            {
+                "value": 51,
+                "name": "3"
+            },
+            {
+                "value": 52,
+                "name": "4"
+            },
+            {
+                "value": 53,
+                "name": "5"
+            },
+            {
+                "value": 54,
+                "name": "6"
+            },
+            {
+                "value": 55,
+                "name": "7"
+            },
+            {
+                "value": 56,
+                "name": "8"
+            },
+            {
+                "value": 57,
+                "name": "9"
+            },
+            {
+                "value": 65,
+                "name": "A"
+            },
+            {
+                "value": 66,
+                "name": "B"
+            },
+            {
+                "value": 67,
+                "name": "C"
+            },
+            {
+                "value": 68,
+                "name": "D"
+            },
+            {
+                "value": 69,
+                "name": "E"
+            },
+            {
+                "value": 70,
+                "name": "F"
+            },
+            {
+                "value": 71,
+                "name": "G"
+            },
+            {
+                "value": 72,
+                "name": "H"
+            },
+            {
+                "value": 73,
+                "name": "I"
+            },
+            {
+                "value": 74,
+                "name": "J"
+            },
+            {
+                "value": 75,
+                "name": "K"
+            },
+            {
+                "value": 76,
+                "name": "L"
+            },
+            {
+                "value": 77,
+                "name": "M"
+            },
+            {
+                "value": 78,
+                "name": "N"
+            },
+            {
+                "value": 79,
+                "name": "O"
+            },
+            {
+                "value": 80,
+                "name": "P"
+            },
+            {
+                "value": 81,
+                "name": "Q"
+            },
+            {
+                "value": 82,
+                "name": "R"
+            },
+            {
+                "value": 83,
+                "name": "S"
+            },
+            {
+                "value": 84,
+                "name": "T"
+            },
+            {
+                "value": 85,
+                "name": "U"
+            },
+            {
+                "value": 86,
+                "name": "V"
+            },
+            {
+                "value": 87,
+                "name": "W"
+            },
+            {
+                "value": 88,
+                "name": "X"
+            },
+            {
+                "value": 89,
+                "name": "Y"
+            },
+            {
+                "value": 90,
+                "name": "Z"
+            },
+            {
+                "value": 96,
+                "name": "NUMPAD0"
+            },
+            {
+                "value": 97,
+                "name": "NUMPAD1"
+            },
+            {
+                "value": 98,
+                "name": "NUMPAD2"
+            },
+            {
+                "value": 99,
+                "name": "NUMPAD3"
+            },
+            {
+                "value": 100,
+                "name": "NUMPAD4"
+            },
+            {
+                "value": 101,
+                "name": "NUMPAD5"
+            },
+            {
+                "value": 102,
+                "name": "NUMPAD6"
+            },
+            {
+                "value": 103,
+                "name": "NUMPAD7"
+            },
+            {
+                "value": 104,
+                "name": "NUMPAD8"
+            },
+            {
+                "value": 105,
+                "name": "NUMPAD9"
+            },
+            {
+                "value": 106,
+                "name": "MULTIPLY"
+            },
+            {
+                "value": 107,
+                "name": "ADD"
+            },
+            {
+                "value": 108,
+                "name": "SEPARATOR"
+            },
+            {
+                "value": 109,
+                "name": "SUBTRACT"
+            },
+            {
+                "value": 110,
+                "name": "DECIMAL"
+            },
+            {
+                "value": 111,
+                "name": "DIVIDE"
+            },
+            {
+                "value": 112,
+                "name": "F1"
+            },
+            {
+                "value": 113,
+                "name": "F2"
+            },
+            {
+                "value": 114,
+                "name": "F3"
+            },
+            {
+                "value": 115,
+                "name": "F4"
+            },
+            {
+                "value": 116,
+                "name": "F5"
+            },
+            {
+                "value": 117,
+                "name": "F6"
+            },
+            {
+                "value": 118,
+                "name": "F7"
+            },
+            {
+                "value": 119,
+                "name": "F8"
+            },
+            {
+                "value": 120,
+                "name": "F9"
+            },
+            {
+                "value": 121,
+                "name": "F10"
+            },
+            {
+                "value": 122,
+                "name": "F11"
+            },
+            {
+                "value": 123,
+                "name": "F12"
+            },
+            {
+                "value": 124,
+                "name": "F13"
+            },
+            {
+                "value": 125,
+                "name": "F14"
+            },
+            {
+                "value": 126,
+                "name": "F15"
+            },
+            {
+                "value": 127,
+                "name": "F16"
+            },
+            {
+                "value": 128,
+                "name": "F17"
+            },
+            {
+                "value": 129,
+                "name": "F18"
+            },
+            {
+                "value": 130,
+                "name": "F19"
+            },
+            {
+                "value": 131,
+                "name": "F20"
+            },
+            {
+                "value": 132,
+                "name": "F21"
+            },
+            {
+                "value": 133,
+                "name": "F22"
+            },
+            {
+                "value": 134,
+                "name": "F23"
+            },
+            {
+                "value": 135,
+                "name": "F24"
+            },
+            {
+                "value": 144,
+                "name": "NUMLOCK"
+            },
+            {
+                "value": 145,
+                "name": "SCROLLLOCK"
+            },
+            {
+                "value": 160,
+                "name": "LEFT SHIFT"
+            },
+            {
+                "value": 161,
+                "name": "RIGHT SHIFT"
+            },
+            {
+                "value": 162,
+                "name": "LEFT CTRL"
+            },
+            {
+                "value": 163,
+                "name": "RIGHT CTRL"
+            },
+            {
+                "value": 164,
+                "name": "LEFT MENU"
+            },
+            {
+                "value": 165,
+                "name": "RIGHT MENU"
+            },
+            {
+                "value": 187,
+                "name": "OEM PLUS"
+            },
+            {
+                "value": 188,
+                "name": "OEM COMMA"
+            },
+            {
+                "value": 189,
+                "name": "OEM MINUS"
+            },
+            {
+                "value": 190,
+                "name": "OEM PERIOD"
+            }
+        ]
+    },
     "nationality": {
         "translate": false,
         "items": [
