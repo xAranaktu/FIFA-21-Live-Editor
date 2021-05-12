@@ -15,10 +15,24 @@ Also, LUA Engine allows you to switch between lua states to access also in-game 
 * [GetTeamIdFromPlayerId](#GetTeamIdFromPlayerId)
 * [GetTeamName](#GetTeamName)
 * [GetPlayerName](#GetPlayerName)
+* [SetPlayerSharpness](#SetPlayerSharpness)
+* [SetPlayerMorale](#SetPlayerMorale)
+* [SetPlayerForm](#SetPlayerForm)
+* [SetPlayerFitness](#SetPlayerFitness)
 * [ReloadDB](#ReloadDB)
 * [ReloadPlayersManager](#ReloadPlayersManager)
 * [PlayerHasDevelopementPlan](#PlayerHasDevelopementPlan)
 * [PlayerSetValueInDevelopementPlan](#PlayerSetValueInDevelopementPlan)
+* [TransferPlayer](#TransferPlayer)
+* [ReleasePlayerFromTeam](#ReleasePlayerFromTeam)
+* [IsPlayerTransferListed](#IsPlayerTransferListed)
+* [IsPlayerLoanListed](#IsPlayerLoanListed)
+* [AddPlayerToTransferList](#AddPlayerToTransferList)
+* [AddPlayerToLoanList](#AddPlayerToLoanList)
+* [RemovePlayerFromLoanList](#RemovePlayerFromLoanList)
+* [RemovePlayerFromTransferList](#RemovePlayerFromTransferList)
+* [RemovePlayerFromLists](#RemovePlayerFromLists)
+* [CreateOfferForPlayer](#CreateOfferForPlayer)
 * [GetDBTablesNames](#GetDBTablesNames)
 * [GetDBTableFields](#GetDBTableFields)
 * [GetDBTableRows](#GetDBTableRows)
@@ -241,6 +255,114 @@ Log(playername)
 > Lionel Messi
 ```
 
+## SetPlayerSharpness
+
+Set player sharpness.
+Use value from 0 to 100.
+
+**Constraints**: 
+- Can be executed only in Career Mode.
+- Only for player in user team
+
+### Syntax
+```
+void SetPlayerSharpness(playerid, new_sharpness)
+```
+### Return
+None
+
+### Example
+```
+-- Set Messi sharpness to 100
+-- Will work only if Messi is in your team
+SetPlayerSharpness(158023, 100)
+```
+
+## SetPlayerMorale
+
+Set player morale.
+Use value from 0 to 100.
+
+
+Min. Morale levels (may be different if you use an mod which changes them):
+- Below 15 for Very Unhappy 
+- 40 for Unhappy
+- 65 for Content 
+- 75 for Happy 
+- 95 for Very Happy
+
+**Constraints**: 
+- Can be executed only in Career Mode.
+- Only for player in user team
+
+### Syntax
+```
+void SetPlayerMorale(playerid, new_morale)
+```
+### Return
+None
+
+### Example
+```
+-- Set Messi morale to 95 (Very Happy)
+-- Will work only if Messi is in your team
+SetPlayerMorale(158023, 95)
+```
+
+## SetPlayerForm
+
+Set player form.
+Use value from 0 to 100.
+
+Min. Form levels (may be different if you use an mod which changes them):
+- Below 25 for Bad
+- 50 for Poor
+- 65 for Okay 
+- 75 for Good 
+- 90 for Excellent
+
+**Constraints**: 
+- Can be executed only in Career Mode.
+- Only for player in user team
+
+### Syntax
+```
+void SetPlayerForm(playerid, new_form)
+```
+### Return
+None
+
+### Example
+```
+-- Set Messi form to 90 (Excellent)
+-- Will work only if Messi is in your team
+SetPlayerForm(158023, 90)
+```
+
+## SetPlayerFitness
+
+Set player match fitness/durability/fitness/stamina (call it as you want ;)).
+
+Use value from 5 to 95. Where 5 is completly tired and 95 is almost full fit.
+I don't recommend to set the value below 5 as it will probably bug the stamina bar.
+Above 95 may bug the whole player/game.
+
+**Constraints**: 
+- Can be executed only in Career Mode.
+
+### Syntax
+```
+void SetPlayerFitness(playerid, new_fitness)
+```
+### Return
+None
+
+### Example
+```
+-- Set Messi fitness to 95 (Almost Full Fit)
+SetPlayerFitness(158023, 95)
+```
+
 ## ReloadDB
 
 Reload all database tables in Live Editor memory.
@@ -332,6 +454,343 @@ if (bIsInCM) then
     if (PlayerHasDevelopementPlan(158023)) then
         PlayerSetValueInDevelopementPlan(158023, "composure", 99)
     end
+end
+
+```
+
+## TransferPlayer
+
+**WARNING**
+
+This can damage/break your career save (especially if you do something stupid, like trying to transfer player who is on loan in other club). Use with caution. Remember about backups.
+
+Immediately transfer player to any club (including yours).
+
+Can be used even if the transfer window is closed.
+
+Wage only matters if you transfer the player to your club.
+
+if from_teamid is 0 then the tool will call [GetTeamIdFromPlayerId](#GetTeamIdFromPlayerId) internally
+
+if release_clause is 0 then there won't be any release clause
+
+**Constraints**: 
+- Can be executed only in Career Mode.
+
+### Syntax
+```
+void TransferPlayer(playerid, to_teamid, transfersum, wage, contract_length_in_months, from_teamid=0, release_clause=0)
+or
+void cTransferPlayer(playerid, from_teamid, to_teamid, transfersum, release_clause, wage, contract_length_in_months)
+```
+### Return
+None
+
+### Example
+```
+-- Transfer 
+-- Cristiano Ronaldo (playerid: 20801)
+-- To Manchester United (ID: 11)
+-- For 500 euro/usd/gbp
+-- Wage = 600
+-- contract length = 60 months (5 years)
+TransferPlayer(20801, 11, 500, 600, 60)
+```
+
+## ReleasePlayerFromTeam
+
+**WARNING**
+
+This can damage/break your career save (especially if you do something stupid, like trying to release player who is on loan in other club). Use with caution. Remember about backups.
+
+
+Release player from current club.
+
+Under the hood it's just transfering the player to free agents, like that:
+```
+player_teamid = GetTeamIdFromPlayerId(playerid)
+free_agents_teamid = 111592
+cTransferPlayer(playerid, player_teamid, free_agents_teamid, 0, 0, 0, 12)
+```
+
+**Constraints**: 
+- Can be executed only in Career Mode.
+
+### Syntax
+```
+void ReleasePlayerFromTeam(playerid)
+```
+### Return
+None
+
+### Example
+```
+-- Make Messi Free Agent
+ReleasePlayerFromTeam(158023)
+```
+
+## IsPlayerTransferListed
+
+Check if player with given playerid is on transfer list.
+If given teamid == 0 then the tool will call [GetTeamIdFromPlayerId](#GetTeamIdFromPlayerId) internally.
+
+**Constraints**: 
+- Can be executed only in Career Mode.
+
+### Syntax
+```
+bool IsPlayerTransferListed(int playerid, int teamid=0)
+or
+bool cIsPlayerTransferListed(int playerid, int teamid)
+```
+### Return
+Type: **Bool**
+- **True** if player is on transfer list
+- **False** if player isn't on transfer list
+
+### Example
+```
+local bIsInCM = IsInCM();
+
+if (bIsInCM) then
+    -- Check if Messi is on transfer list
+    local is_on_transferlist = IsPlayerTransferListed(158023)
+    if (is_on_transferlist) then
+        Log("Player is on transfer list")
+    else
+        Log("Player is not on transfer list")
+    end
+    
+end
+
+```
+
+## IsPlayerLoanListed
+
+Check if player with given playerid is on loan list.
+If given teamid == 0 then the tool will call [GetTeamIdFromPlayerId](#GetTeamIdFromPlayerId) internally.
+
+**Constraints**: 
+- Can be executed only in Career Mode.
+
+### Syntax
+```
+bool IsPlayerLoanListed(int playerid, int teamid=0)
+or
+bool cIsPlayerLoanListed(int playerid, int teamid)
+```
+### Return
+Type: **Bool**
+- **True** if player is on loan list
+- **False** if player isn't on loan list
+
+### Example
+```
+local bIsInCM = IsInCM();
+
+if (bIsInCM) then
+    -- Check if Messi is on loan list
+    local is_on_loanlist = IsPlayerLoanListed(158023)
+    if (is_on_loanlist) then
+        Log("Player is on loan list")
+    else
+        Log("Player is not on loan list")
+    end
+    
+end
+
+```
+
+
+## AddPlayerToTransferList
+
+Adds player with given playerid to transfer list.
+If given teamid == 0 then the tool will call [GetTeamIdFromPlayerId](#GetTeamIdFromPlayerId) internally.
+
+**WARNING!!**
+
+Altho it's possible to make player transfer and loan listed, you shouldn't do that as it doesn't happen in "natural" game environment.
+So, player should be only on loan list **or** only on transfer list.
+
+**Constraints**: 
+- Can be executed only in Career Mode.
+
+### Syntax
+```
+void AddPlayerToTransferList(int playerid, int teamid=0)
+or
+void cAddPlayerToTransferList(int playerid, int teamid)
+```
+### Return
+None
+
+### Example
+```
+local bIsInCM = IsInCM();
+
+if (bIsInCM) then
+    -- Make Messi transferlisted
+    AddPlayerToTransferList(158023)
+end
+
+```
+
+## AddPlayerToLoanList
+
+Adds player with given playerid to loan list.
+If given teamid == 0 then the tool will call [GetTeamIdFromPlayerId](#GetTeamIdFromPlayerId) internally.
+
+**WARNING!!**
+
+Altho it's possible to make player transfer and loan listed, you shouldn't do that as it doesn't happen in "natural" game environment.
+So, player should be only on loan list **or** only on transfer list.
+
+**Constraints**: 
+- Can be executed only in Career Mode.
+
+### Syntax
+```
+void AddPlayerToLoanList(int playerid, int teamid=0)
+or
+void cAddPlayerToLoanList(int playerid, int teamid)
+```
+### Return
+None
+
+### Example
+```
+local bIsInCM = IsInCM();
+
+if (bIsInCM) then
+    -- Make Messi loanlisted
+    AddPlayerToLoanList(158023)
+end
+
+```
+
+## RemovePlayerFromLists
+
+Remove player with given playerid from transfer and loan list.
+
+If given teamid == 0 then the tool will call [GetTeamIdFromPlayerId](#GetTeamIdFromPlayerId) internally.
+
+**Constraints**: 
+- Can be executed only in Career Mode.
+
+### Syntax
+```
+void RemovePlayerFromLists(int playerid, int teamid=0)
+or
+void cRemovePlayerFromLists(int playerid, int teamid)
+```
+### Return
+None
+
+### Example
+```
+local bIsInCM = IsInCM();
+
+if (bIsInCM) then
+    -- Remove Messi from transfer and loan list
+    RemovePlayerFromLists(158023)
+end
+
+```
+
+
+## RemovePlayerFromTransferList
+
+Remove player with given playerid from transfer list
+If given teamid == 0 then the tool will call [GetTeamIdFromPlayerId](#GetTeamIdFromPlayerId) internally.
+
+**Constraints**: 
+- Can be executed only in Career Mode.
+
+### Syntax
+```
+void RemovePlayerFromTransferList(int playerid, int teamid=0)
+or
+void cRemovePlayerFromTransferList(int playerid, int teamid)
+```
+### Return
+None
+
+### Example
+```
+local bIsInCM = IsInCM();
+
+if (bIsInCM) then
+    -- Remove Messi from transfer list
+    RemovePlayerFromTransferList(158023)
+end
+
+```
+
+## RemovePlayerFromLoanList
+
+Remove player with given playerid from loan list
+If given teamid == 0 then the tool will call [GetTeamIdFromPlayerId](#GetTeamIdFromPlayerId) internally.
+
+**Constraints**: 
+- Can be executed only in Career Mode.
+
+### Syntax
+```
+void RemovePlayerFromLoanList(int playerid, int teamid=0)
+or
+void cRemovePlayerFromLoanList(int playerid, int teamid)
+```
+### Return
+None
+
+### Example
+```
+local bIsInCM = IsInCM();
+
+if (bIsInCM) then
+    -- Remove Messi from loan list
+    RemovePlayerFromLoanList(158023)
+end
+
+```
+
+
+## CreateOfferForPlayer
+
+Create Transfer (/maybe loan too) offer for player.
+
+Offer type can be any value between 0 and 5 (maybe 6).
+Default offer type is 5. Game commonly uses offer type 3 or 5.
+
+Created offer should appear in-game after 2-5 days. Transfer window probably must be open.
+
+You can use this to create offers for your players and also to initiate transfers between CPU teams.
+Using this doesn't guarantee that the player will change his team. There is always chance that player or team will break negotiations.
+
+The unrealistic transfer offers may not even appear. For example if you will try to create an transfer offer for Messi from AFC Wimbledon game may ignore it and not even show it (because AFC Wimbledon doesn't have enough transfer budget).
+If the transfer offer will somehow appear then for 99% it will fail later on when Messi will negotiate his wage with team (AFC Wimbledon doesn't have enough wage budget to cover Messi salary).
+
+**Constraints**: 
+- Can be executed only in Career Mode.
+
+### Syntax
+```
+void CreateOfferForPlayer(int playerid, int offer_from_teamid, int offer_type=5)
+or
+void cCreateOfferForPlayer(int playerid, int offer_from_teamid, int offer_type)
+```
+### Return
+None
+
+### Example
+```
+local bIsInCM = IsInCM();
+
+if (bIsInCM) then
+    -- Create offer for Messi (playerid: 158023)
+    -- From Manchester City (teamid: 10)
+    -- With offer type == 5
+    CreateOfferForPlayer(158023, 10, 5)
 end
 
 ```
