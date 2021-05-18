@@ -1,3 +1,12 @@
+v21.1.1.6:
+    - Added additional safety checks to TransferPlayer (presigned status, loan status & squad size check)
+    - Added 5 new lua function (Check DOC.MD for usage):
+        - LoanPlayer
+        - IsPlayerPresigned
+        - IsPlayerLoanedOut
+        - TerminateLoan
+        - DeletePresignedContract
+
 v21.1.1.5:
     - Fixed game crashing on starting the match (probably :D)
     - Added 6 new lua function (Check DOC.MD for usage):
