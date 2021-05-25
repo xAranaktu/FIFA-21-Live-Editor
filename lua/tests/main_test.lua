@@ -62,6 +62,58 @@ if (bIsInCM) then
     assert(type(playername2) == "string", "GetPlayerName(158023) not a string")
     assert(playername2 == "Lionel Messi", "playername2 != Lionel Messi")
 
+    -- TODO Getters and check
+    SetPlayerSharpness(158023, 100)
+    SetPlayerMorale(158023, 95)
+    SetPlayerForm(158023, 95)
+    SetPlayerFitness(158023, 95)
+
+    Log("Transfer test CPU")
+
+    local transfer_test_playerid = 20801
+    local transfer_test_playerteamid = GetTeamIdFromPlayerId(transfer_test_playerid)
+
+    TransferPlayer(transfer_test_playerid, 11, 500, 600, 60)
+    ReloadDB()
+    assert(GetTeamIdFromPlayerId(transfer_test_playerid) == 11, "Ronaldo is not in Man United")
+
+    TransferPlayer(transfer_test_playerid, user_teamid, 500000000, 60000, 60)
+    ReloadDB()
+    assert(GetTeamIdFromPlayerId(transfer_test_playerid) == user_teamid, "Ronaldo is not in user team")
+
+    ReleasePlayerFromTeam(transfer_test_playerid)
+    ReloadDB()
+    assert(GetTeamIdFromPlayerId(transfer_test_playerid) == 111592, "Ronaldo is not in free agents")
+
+    TransferPlayer(transfer_test_playerid, transfer_test_playerteamid, 500, 600, 60)
+    ReloadDB()
+    assert(GetTeamIdFromPlayerId(transfer_test_playerid) == transfer_test_playerteamid, "Ronaldo is not in org club")
+
+    Log("Transfer test CPU Done")
+
+    Log("Transfer test USER")
+
+    transfer_test_playerid = 158023
+    transfer_test_playerteamid = GetTeamIdFromPlayerId(transfer_test_playerid)
+
+    TransferPlayer(transfer_test_playerid, 243, 500, 600, 60)
+    ReloadDB()
+    assert(GetTeamIdFromPlayerId(transfer_test_playerid) == 243, "Messi is not in Real Madrid")
+
+    TransferPlayer(transfer_test_playerid, user_teamid, 500000000, 60000, 60)
+    ReloadDB()
+    assert(GetTeamIdFromPlayerId(transfer_test_playerid) == user_teamid, "Messi is not in user team")
+
+    ReleasePlayerFromTeam(transfer_test_playerid)
+    ReloadDB()
+    assert(GetTeamIdFromPlayerId(transfer_test_playerid) == 111592, "Messi is not in free agents")
+
+    TransferPlayer(transfer_test_playerid, transfer_test_playerteamid, 500, 600, 60)
+    ReloadDB()
+    assert(GetTeamIdFromPlayerId(transfer_test_playerid) == transfer_test_playerteamid, "Messi is not in org club")
+
+    Log("Transfer test USER Done")
+
     Log("Transfer/Loan List Checks for user player")
     local listing_checks_playerid = 158023
     local is_on_transferlist = IsPlayerTransferListed(listing_checks_playerid)
