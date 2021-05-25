@@ -193,6 +193,19 @@ if (bIsInCM) then
     assert(is_on_transferlist == false, listing_checks_cpu_playerid .. " is on transfer list after second RemovePlayerFromLists called")
 
     Log("Transfer/Loan List Checks Done")
+
+    local loan_test1 = IsPlayerLoanedOut(158023)
+    local loan_test2 = IsPlayerLoanedOut(240915)
+
+    assert(loan_test1 == false, "Messi shouldnt be on loan")
+    assert(loan_test2, "Miranda should be on loan")
+
+    TerminateLoan(240915)
+    LoanPlayer(20801, 11, 12, -1)
+    LoanPlayer(208722, 241, 12, -1)
+
+    IsPlayerPresigned(158023)
+    DeletePresignedContract(158023)
 else 
     Log("Not in Career Mode")
 end

@@ -15,6 +15,13 @@ function TransferPlayer(playerid, to_teamid, transfersum, wage, contract_length,
     cTransferPlayer(playerid, from_teamid or 0, to_teamid, transfersum, release_clause or 0, wage, contract_length)
 end
 
+--- LoanPlayer(20801, 241, 12, -1)
+--- LoanPlayer(158023, 11, 12, -1)
+
+function LoanPlayer(playerid, to_teamid, loan_length, loantobuy, from_teamid)
+    cLoanPlayer(playerid, from_teamid or 0, to_teamid, loan_length, loantobuy)
+end
+
 function ReleasePlayerFromTeam(playerid)
     player_teamid = GetTeamIdFromPlayerId(playerid)
     free_agents_teamid = 111592
