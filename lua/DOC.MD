@@ -24,7 +24,12 @@ Also, LUA Engine allows you to switch between lua states to access also in-game 
 * [PlayerHasDevelopementPlan](#PlayerHasDevelopementPlan)
 * [PlayerSetValueInDevelopementPlan](#PlayerSetValueInDevelopementPlan)
 * [TransferPlayer](#TransferPlayer)
+* [LoanPlayer](#LoanPlayer)
 * [ReleasePlayerFromTeam](#ReleasePlayerFromTeam)
+* [TerminateLoan](#TerminateLoan)
+* [DeletePresignedContract](#DeletePresignedContract)
+* [IsPlayerLoanedOut](#IsPlayerLoanedOut)
+* [IsPlayerPresigned](#IsPlayerPresigned)
 * [IsPlayerTransferListed](#IsPlayerTransferListed)
 * [IsPlayerLoanListed](#IsPlayerLoanListed)
 * [AddPlayerToTransferList](#AddPlayerToTransferList)
@@ -463,6 +468,7 @@ end
 **WARNING**
 
 This can damage/break your career save (especially if you do something stupid, like trying to transfer player who is on loan in other club). Use with caution. Remember about backups.
+Tested only in Manager Career Mode. May not work in Player Career Mode
 
 Immediately transfer player to any club (including yours).
 
@@ -494,7 +500,70 @@ None
 -- For 500 euro/usd/gbp
 -- Wage = 600
 -- contract length = 60 months (5 years)
+
+playerid = 20801
+if (IsPlayerPresigned(playerid)) then
+  -- Delete presigned contract to force transfer
+  DeletePresignedContract(playerid)
+end
+
+if (IsPlayerLoanedOut(playerid)) then
+  -- Terminate loan to force transfer
+  TerminateLoan(playerid)
+end
+
 TransferPlayer(20801, 11, 500, 600, 60)
+```
+
+## LoanPlayer
+
+**WARNING**
+
+This can damage/break your career save. Use with caution. Remember about backups.
+Tested only in Manager Career Mode. May not work in Player Career Mode
+
+Immediately loan player to any club (including yours).
+
+Can be used even if the transfer window is closed.
+
+
+if from_teamid is 0 then the tool will call [GetTeamIdFromPlayerId](#GetTeamIdFromPlayerId) internally
+
+For now keep the `loantobuy` == `-1`. I don't know how it works exactly, maybe will fix it later.
+
+**Constraints**: 
+- Can be executed only in Career Mode.
+
+### Syntax
+```
+void LoanPlayer(playerid, to_teamid, length_in_months, loantobuy, from_teamid=0)
+or
+void cLoanPlayer(playerid, from_teamid, to_teamid, length_in_months, loantobuy)
+```
+### Return
+None
+
+### Example
+```
+-- Loan 
+-- Cristiano Ronaldo (playerid: 20801)
+-- To Manchester United (ID: 11)
+-- contract length = 12 months (1 year)
+-- loantobuy = -1 (no loan to buy)
+
+local playerid = 20801
+local to_teamid = 11
+if (IsPlayerPresigned(playerid)) then
+  -- Delete presigned contract to force loan
+  DeletePresignedContract(playerid)
+end
+
+if (IsPlayerLoanedOut(playerid)) then
+  -- Terminate loan to force new loan
+  TerminateLoan(playerid)
+end
+
+LoanPlayer(playerid, to_teamid, 12, -1)
 ```
 
 ## ReleasePlayerFromTeam
@@ -527,6 +596,115 @@ None
 ```
 -- Make Messi Free Agent
 ReleasePlayerFromTeam(158023)
+```
+
+## TerminateLoan
+
+**WARNING**
+
+This can damage/break your career save. Use with caution. Remember about backups.
+
+Terminates player loan. The player will immediately back to his club.
+
+**Constraints**: 
+- Can be executed only in Career Mode.
+
+### Syntax
+```
+void TerminateLoan(playerid)
+```
+### Return
+None
+
+### Example
+```
+-- Juan Camilo Hernández will immediately back to Watford (if he is loaned out in your career)
+playerid = 237034 -- Juan Camilo Hernández
+if (IsPlayerLoanedOut(playerid)) then
+    TerminateLoan(playerid) 
+end
+```
+
+## DeletePresignedContract
+
+**WARNING**
+
+This can damage/break your career save. Use with caution. Remember about backups.
+
+Delete player related record from career_presignedcontract table.
+
+**Constraints**: 
+- Can be executed only in Career Mode.
+
+### Syntax
+```
+void DeletePresignedContract(playerid)
+```
+### Return
+none
+
+### Example
+```
+-- Delete Juan Camilo Hernández presigned contract(if he has one)
+playerid = 237034 -- Juan Camilo Hernández
+if (IsPlayerPresigned(playerid)) then
+    DeletePresignedContract(playerid)
+end
+```
+
+## IsPlayerLoanedOut
+
+Check if player is loaned out.
+
+**Constraints**: 
+- Can be executed only in Career Mode.
+
+### Syntax
+```
+bool IsPlayerLoanedOut(playerid)
+```
+### Return
+Type: **Bool**
+- **True** if player is loaned out
+- **False** if player isn't loaned out
+
+### Example
+```
+-- Check if Juan Camilo Hernández is loaned out
+playerid = 237034 -- Juan Camilo Hernández
+if (IsPlayerLoanedOut(playerid)) then
+    Log("Player is Loaned out")
+else
+    Log("Player isn't Loaned out")
+end
+```
+
+## IsPlayerPresigned
+
+Check if player is has presigned contract.
+To be more precise, it checks if the player reladed record exist in career_presignedcontract table
+
+**Constraints**: 
+- Can be executed only in Career Mode.
+
+### Syntax
+```
+bool IsPlayerPresigned(playerid)
+```
+### Return
+Type: **Bool**
+- **True** if player has got record in career_presignedcontract
+- **False** if player hasn't got record in career_presignedcontract
+
+### Example
+```
+-- Juan Camilo Hernández will immediately back to Watford (if he is loaned out in your career)
+playerid = 237034 -- Juan Camilo Hernández
+if (IsPlayerPresigned(playerid)) then
+    Log("Player is presigned")
+else
+    Log("Player isn't presigned")
+end
 ```
 
 ## IsPlayerTransferListed
@@ -757,10 +935,11 @@ end
 
 ## CreateOfferForPlayer
 
-Create Transfer (/maybe loan too) offer for player.
+Create Transfer or Loan offer for player.
 
 Offer type can be any value between 0 and 5 (maybe 6).
 Default offer type is 5. Game commonly uses offer type 3 or 5.
+For loan offer use offer type == 2 (sometimes you may get loan to buy offer instead of normal offer).
 
 Created offer should appear in-game after 2-5 days. Transfer window probably must be open.
 

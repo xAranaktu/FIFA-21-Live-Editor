@@ -1,3 +1,7 @@
+v21.1.1.7:
+    - Fixed LoanPlayer
+    - Fixed crashing after executing GetTeamName/GetPlayerName in career mode.
+
 v21.1.1.6:
     - Added additional safety checks to TransferPlayer (presigned status, loan status & squad size check)
     - Added 5 new lua function (Check DOC.MD for usage):
@@ -29,7 +33,7 @@ v21.1.1.4:
     - Added to Players Editor -> Transfer Panel:
         - Option to add/remove player from transfer list
         - Option to add/remove player from loan list
-    - Renamed CÃ´te d'Ivoire to Ivory Coast
+    - Renamed Côte d'Ivoire to Ivory Coast
 
 v21.1.1.3:
     - Added to Settings:
