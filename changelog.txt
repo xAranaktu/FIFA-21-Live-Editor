@@ -1,3 +1,7 @@
+v21.1.1.9:
+    - Faster loading teams & players
+    - Faster filtering
+
 v21.1.1.8:
     - Added basic teams editor
     - Added following buttons to players editor:
