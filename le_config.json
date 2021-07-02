@@ -1,9 +1,29 @@
 {
-    "Lua": {
-        "execute_in_all_states": false
-    },
-    "Other": {
-        "show_player_potential": true
+    "Hotkeys": {
+        "eject_dll": {
+            "enabled": false,
+            "keys_combination": [
+                35,
+                0,
+                0
+            ]
+        },
+        "hide_ui_keys": {
+            "enabled": true,
+            "keys_combination": [
+                120,
+                0,
+                0
+            ]
+        },
+        "show_menu_keys": {
+            "enabled": true,
+            "keys_combination": [
+                122,
+                0,
+                0
+            ]
+        }
     },
     "Logger": {
         "log_game_logs": false,
@@ -13,19 +33,13 @@
         "log_load_file": false,
         "luaL_tolstring": false
     },
-    "Hotkeys": {
-        "show_menu_keys": {
-            "enabled": true,
-            "keys_combination": [ 122, 0, 0 ]
-        },
-        "hide_ui_keys": {
-            "enabled": true,
-            "keys_combination": [ 120, 0, 0 ]
-        },
-        "eject_dll": {
-            "enabled": false,
-            "keys_combination": [ 35, 0, 0 ]
-        }
+    "Lua": {
+        "collect_lua_states": false,
+        "execute_in_all_states": false
+    },
+    "Other": {
+        "first_run": false,
+        "show_player_potential": true
     },
     "Overlay": {
         "corner": 0,
