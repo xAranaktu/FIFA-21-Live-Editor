@@ -1,6 +1,7 @@
 v21.1.2.0:
     - Fixed "transfer will reduce the number of players below 18" even if team had enough players
     - Fixed player "Team not found" if the team were loaded before player
+    - Fixed loan term when loaning out players
 
 v21.1.1.9:
     - Faster loading teams & players
