@@ -1,3 +1,15 @@
+v21.1.2.2:
+    - Fixed not displaying recently transfered players in formation editor
+    - Fixed filtering players by names
+    - Fixed crash on reloading
+
+v21.1.2.1:
+    - Added team formation editor
+    - Multi-threaded loading players and teams.
+    - Fixed crashing when trying to open players editor with selected non existing player
+    - Fixed crashing when trying to open teams editor with selected non existing team
+    - Fixed crashing when trying to open transfer panel in players editor after remove changes
+
 v21.1.2.0:
     - Fixed "transfer will reduce the number of players below 18" even if team had enough players
     - Fixed player "Team not found" if the team were loaded before player
