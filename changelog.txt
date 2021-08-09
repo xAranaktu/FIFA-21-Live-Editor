@@ -1,5 +1,10 @@
+v21.1.2.3:
+    - Added option to disable loading images in the Live Editor UI.
+    - fifa_ng_db-meta.xml will be now by default loaded from tool data folder. Should fix compatibility problems with some mods.
+
+
 v21.1.2.2:
-    - Fixed not displaying recently transfered players in formation editor
+    - Fixed not displaying recently transferred players in formation editor
     - Fixed filtering players by names
     - Fixed crash on reloading
 
