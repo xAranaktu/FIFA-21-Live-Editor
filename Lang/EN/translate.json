@@ -19,6 +19,8 @@
     "show_title_label": "Show app title label",
     "show_player_potential_short": "Show Player Potential",
     "show_player_potential": "Show Player Potential in UI",
+    "load_images_short": "Load images",
+    "load_images": "Load and show images in UI.",
     "collect_lua_states": "Enable collecting lua states",
     "exec_lua_all_states": "Execute In All In-Game Lua States",
     "show_hotkeys": "Show hotkeys",

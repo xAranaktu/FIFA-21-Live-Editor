@@ -4,7 +4,8 @@
         "execute_in_all_states": false
     },
     "Other": {
-        "show_player_potential": true
+        "show_player_potential": true,
+        "load_images": true
     },
     "Logger": {
         "log_game_logs": false,
