@@ -1,3 +1,19 @@
+v21.1.2.5:
+    - Added insert row option in DB Editor
+    - Added delete row option in DB Editor
+    - Added 2 new lua functions (Check DOC.MD for usage):
+        - InsertDBTableRow
+        - DeleteDBTableRow
+
+v21.1.2.4:
+    - Added offset cache (Live Editor should load much faster now)
+    - Added missing tables from fifa_ng_db to Database Editor
+    - Replaced "Transfer player" button with "Offer Transfer" button for player career mode player (in players editor)
+    - Replaced "Loan Player" button with "Offer Loan" button for player career mode player (in players editor)
+    - Changed database editor UI a little bit
+    - Columns in database editor can now be ordered
+    - Fixed small memory leak in database editor
+
 v21.1.2.3:
     - Added option to disable loading images in the Live Editor UI.
     - fifa_ng_db-meta.xml will be now by default loaded from tool data folder. Should fix compatibility problems with some mods.
