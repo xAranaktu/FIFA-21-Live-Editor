@@ -9,10 +9,10 @@
     },
     "Logger": {
         "log_game_logs": false,
-        "log_get_file_info": false,
+        "log_try_find_chunk_file": false,
         "log_iniread": false,
         "log_level": 1,
-        "log_load_file": false,
+        "log_load_chunk_file": false,
         "luaL_tolstring": false
     },
     "Hotkeys": {
