@@ -3119,6 +3119,10 @@
             {
                 "value": 1,
                 "name": "acrobatic"
+            },
+            {
+                "value": 2,
+                "name": "outfield"
             }
         ]
     },
@@ -3132,6 +3136,279 @@
             {
                 "value": 1,
                 "name": "female"
+            }
+        ]
+    },
+    "skintonecode": {
+        "translate": true,
+        "items": [
+            {
+                "value": 1,
+                "name": "skintonecode_1"
+            },
+            {
+                "value": 2,
+                "name": "skintonecode_2"
+            },
+            {
+                "value": 3,
+                "name": "skintonecode_3"
+            },
+            {
+                "value": 4,
+                "name": "skintonecode_4"
+            },
+            {
+                "value": 5,
+                "name": "skintonecode_5"
+            },
+            {
+                "value": 6,
+                "name": "skintonecode_6"
+            },
+            {
+                "value": 7,
+                "name": "skintonecode_7"
+            },
+            {
+                "value": 8,
+                "name": "skintonecode_8"
+            },
+            {
+                "value": 9,
+                "name": "skintonecode_9"
+            },
+            {
+                "value": 10,
+                "name": "skintonecode_10"
+            }
+        ]
+    },
+    "socklengthcode": {
+        "translate": true,
+        "items": [
+            {
+                "value": 0,
+                "name": "socklengthcode_0"
+            },
+            {
+                "value": 1,
+                "name": "socklengthcode_1"
+            },
+            {
+                "value": 2,
+                "name": "socklengthcode_2"
+            },
+            {
+                "value": 3,
+                "name": "socklengthcode_3"
+            },
+            {
+                "value": 4,
+                "name": "socklengthcode_4"
+            }
+        ]
+    },
+    "shortstyle": {
+        "translate": true,
+        "items": [
+            {
+                "value": 0,
+                "name": "shortstyle_0"
+            },
+            {
+                "value": 1,
+                "name": "shortstyle_1"
+            }
+        ]
+    },
+    "jerseysleevelengthcode": {
+        "translate": true,
+        "items": [
+            {
+                "value": 0,
+                "name": "jerseysleevelengthcode_0"
+            },
+            {
+                "value": 1,
+                "name": "jerseysleevelengthcode_1"
+            },
+            {
+                "value": 2,
+                "name": "jerseysleevelengthcode_2"
+            },
+            {
+                "value": 3,
+                "name": "jerseysleevelengthcode_3"
+            }
+        ]
+    },
+    "jerseyfit": {
+        "translate": true,
+        "items": [
+            {
+                "value": 0,
+                "name": "jerseyfit_0"
+            },
+            {
+                "value": 1,
+                "name": "jerseyfit_1"
+            },
+            {
+                "value": 2,
+                "name": "jerseyfit_2"
+            }
+        ]
+    },
+    "jerseystylecode": {
+        "translate": true,
+        "items": [
+            {
+                "value": 0,
+                "name": "jerseystylecode_0"
+            },
+            {
+                "value": 1,
+                "name": "jerseystylecode_1"
+            },
+            {
+                "value": 2,
+                "name": "facialhaircolor_2"
+            }
+        ]
+    },
+    "facialhaircolorcode": {
+        "translate": true,
+        "items": [
+            {
+                "value": 0,
+                "name": "facialhaircolor_0"
+            },
+            {
+                "value": 1,
+                "name": "facialhaircolor_1"
+            },
+            {
+                "value": 2,
+                "name": "facialhaircolor_2"
+            },
+            {
+                "value": 3,
+                "name": "facialhaircolor_3"
+            },
+            {
+                "value": 4,
+                "name": "facialhaircolor_4"
+            }
+        ]
+    },
+    "haircolorcode": {
+        "translate": true,
+        "items": [
+            {
+                "value": 0,
+                "name": "haircolor_0"
+            },
+            {
+                "value": 1,
+                "name": "haircolor_1"
+            },
+            {
+                "value": 2,
+                "name": "haircolor_2"
+            },
+            {
+                "value": 3,
+                "name": "haircolor_3"
+            },
+            {
+                "value": 4,
+                "name": "haircolor_4"
+            },
+            {
+                "value": 5,
+                "name": "haircolor_5"
+            },
+            {
+                "value": 6,
+                "name": "haircolor_6"
+            },
+            {
+                "value": 7,
+                "name": "haircolor_7"
+            },
+            {
+                "value": 8,
+                "name": "haircolor_8"
+            },
+            {
+                "value": 9,
+                "name": "haircolor_9"
+            },
+            {
+                "value": 10,
+                "name": "haircolor_10"
+            },
+            {
+                "value": 11,
+                "name": "haircolor_11"
+            },
+            {
+                "value": 12,
+                "name": "haircolor_12"
+            },
+            {
+                "value": 13,
+                "name": "haircolor_13"
+            },
+            {
+                "value": 14,
+                "name": "haircolor_14"
+            }
+        ]
+    },
+    "eyecolorcode": {
+        "translate": true,
+        "items": [
+            {
+                "value": 1,
+                "name": "eyecolor_1"
+            },
+            {
+                "value": 2,
+                "name": "eyecolor_2"
+            },
+            {
+                "value": 3,
+                "name": "eyecolor_3"
+            },
+            {
+                "value": 4,
+                "name": "eyecolor_4"
+            },
+            {
+                "value": 5,
+                "name": "eyecolor_5"
+            },
+            {
+                "value": 6,
+                "name": "eyecolor_6"
+            },
+            {
+                "value": 7,
+                "name": "eyecolor_7"
+            },
+            {
+                "value": 8,
+                "name": "eyecolor_8"
+            },
+            {
+                "value": 9,
+                "name": "eyecolor_9"
+            },
+            {
+                "value": 10,
+                "name": "eyecolor_10"
             }
         ]
     },

@@ -2,6 +2,8 @@
 
 FIFA Live Editor is using Lua 5.3.4 (32 bit) as main scripting language. You can execute lua code by opening menu (F11) -> Lua Engine -> execute.
 
+![](https://i.imgur.com/evZk7JG.png)
+
 Just for your info, Lua scripts created for cheat engine will not work.
 Also, LUA Engine allows you to switch between lua states to access also in-game lua functions. These functions aren't covered in this documentation.
 
@@ -41,6 +43,8 @@ Also, LUA Engine allows you to switch between lua states to access also in-game 
 * [GetDBTablesNames](#GetDBTablesNames)
 * [GetDBTableFields](#GetDBTableFields)
 * [GetDBTableRows](#GetDBTableRows)
+* [InsertDBTableRow](#InsertDBTableRow)
+* [DeleteDBTableRow](#DeleteDBTableRow)
 * [EditDBTableField](#EditDBTableField)
 * [AddMinifaceToGenerate](#AddMinifaceToGenerate)
 * [GenerateMinifaces](#GenerateMinifaces)
@@ -1067,6 +1071,93 @@ Log(row["teamid"]["value"])
 > 7
 ```
 
+## InsertDBTableRow
+Inserts new row into database table.
+### Syntax
+```
+table InsertDBTableRow(string table_name, table row_data)
+```
+### Return
+Return newly created row
+
+Type: [DBRow](#DBRow)
+
+### Example
+```
+-- Reload Database to make sure we are working with up to date copy
+ReloadDB()
+
+-- Assign custom name to Messi (Playerid: 158023)
+local row_data = {
+    playerid = "158023",
+    firstname = "aaa",
+    surname = "bbb",
+    playerjerseyname = "ccc"
+}
+
+local row = InsertDBTableRow("editedplayernames", row_data)
+Log(type(row))
+
+-- That's how to verify if row has been inserted
+if (row.addr == "0") then
+    Log("Insert row failed. Check logs for more info")
+    return    
+end
+
+Log(row["playerid"]["value"])
+
+```
+```
+> table
+> 158023
+
+```
+
+## DeleteDBTableRow
+Delete row from database table.
+### Syntax
+```
+bool InsertDBTableRow(string table_name, table row_data)
+```
+### Return
+Type: **Bool**
+- **True** if row has been deleted
+- **False** if failed
+
+### Example
+```
+-- Reload Database to make sure we are working with up to date copy
+ReloadDB()
+
+-- Assign custom name to Messi (Playerid: 158023)
+local row_data = {
+    playerid = "158023",
+    firstname = "aaa",
+    surname = "bbb",
+    playerjerseyname = "ccc"
+}
+
+local row = InsertDBTableRow("editedplayernames", row_data)
+
+-- That's how to verify if row has been inserted
+if (row.addr == "0") then
+    Log("Insert row failed. Check logs for more info")
+    return    
+end
+
+-- Delete the row that we just created
+local success = DeleteDBTableRow("editedplayernames", row)
+if (success) then
+    Log("Row deleted")
+else
+    Log("Failed to delete row")
+end
+
+```
+```
+Row deleted
+
+```
 
 
 ## EditDBTableField

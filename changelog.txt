@@ -1,3 +1,16 @@
+v21.1.2.6:
+    - Added descriptions of the attributes to players editor
+    - Added descriptions of the traits to players editor
+    - Added hair color picker to players editor
+    - Added facial hair color picker to players editor
+    - Added eye color picker to players editor
+    - Added jersey style picker to players editor
+    - Added jersey sleeve length picker to players editor
+    - Added jersey fit picker to players editor
+    - Added short style picker to players editor
+    - Added sock length picker to players editor
+    - Added skin tone picker to players editor
+
 v21.1.2.5:
     - Added insert row option in DB Editor
     - Added delete row option in DB Editor
@@ -85,7 +98,7 @@ v21.1.1.4:
     - Added to Players Editor -> Transfer Panel:
         - Option to add/remove player from transfer list
         - Option to add/remove player from loan list
-    - Renamed CÃ´te d'Ivoire to Ivory Coast
+    - Renamed Côte d'Ivoire to Ivory Coast
 
 v21.1.1.3:
     - Added to Settings:
