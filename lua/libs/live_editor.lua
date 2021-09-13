@@ -3,6 +3,15 @@
 
 Log("Init live_editor.lua")
 
+function DeleteDBTableRow(table_name, row)
+    local addr = "0"
+    for k,v in pairs(row) do
+       addr = row[k].addr
+       break
+    end
+    return DeleteDBTableRowByAddr(table_name, addr)
+end
+
 --- CreateOfferForPlayer(158023, 243, 5)
 function CreateOfferForPlayer(playerid, teamid, offer_type)
     cCreateOfferForPlayer(playerid, teamid, offer_type or 5)
